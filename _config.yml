@@ -1,0 +1,19 @@
+title: safe-UR-chain
+claim: 'Sicherheit und Nachverfolgbarkeit in zivilen Produktions- und Wertschöpfungsnetzwerken durch Blockchain'
+author: Adrian Singer
+email: adriansinger@iwu.fraunhofer.de
+description: >
+  Eine Projektwebseite für das BMBF geförderte Projekt safe-UR-chain
+
+baseurl: ""
+
+sass:
+    style: compressed
+
+highlighter: rouge
+
+permalink: /:categories/:title/
+
+plugins:
+  - jekyll-seo-tag
+  

@@ -1,0 +1,34 @@
+.site-logo {
+    margin-top: 0.2em;
+    max-height: 1.6em;
+}
+
+.partner {
+    max-width: 120px;
+    max-height: 90px;
+    margin: 10px;
+}
+
+.logo-carousel {
+    max-width: 80%;
+    width: 300px;
+}
+
+/* Class for when element is above threshold */
+.pin-top {
+  position: relative;
+}
+
+/* Class for when element is below threshold */
+.pin-bottom {
+  position: relative;
+}
+
+/* Class for when element is pinned */
+.pinned {
+  position: fixed !important;
+}
+
+.card .card-content {
+  padding: 12px;
+}

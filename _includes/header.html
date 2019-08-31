@@ -1,0 +1,54 @@
+  <nav role="navigation">
+    <div class="nav-wrapper container">
+      <div class="hide-on-med-and-down">
+        <a id="logo-container" class="brand-logo" href="{{ "/" | relative_url }}">
+          <img class="site-logo " src="{{ "/assets/img/logo-small.svg" | relative_url }}"></a>
+
+        {% assign default_paths = site.pages | map: "path" %}
+        {% assign page_paths = site.header_pages | default: default_paths %}
+
+        <ul class="right">
+          <li><a href="{{ "/" | relative_url }}">Start</a></li>
+          {% if page_paths %}
+          {% for path in page_paths %}
+          {% assign my_page = site.pages | where: "path", path | first %}
+          {% if my_page.title %}
+          <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
+          {% endif %}
+          {% endfor %}
+          {% endif %}
+          <li><a href="{{ "/articles" | relative_url }}">Artikel</a></li>
+        </ul>
+      </div>
+      <div class="hide-on-large-only">
+        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <a id="logo-container" class="brand-logo center" href="{{ "/" | relative_url }}">
+          <img class="site-logo"  src="{{ "/assets/img/logo-small.svg" | relative_url }}"></a>
+      </div>
+    </div>
+  </nav>
+  <ul id="slide-out" class="sidenav">
+      <li><div class="user-view">
+          <div class="background">
+            <img width="200%" src="{{ "/assets/img/banner_1.jpg" | relative_url }}">
+          </div>
+          <a href="#user"><img height="45px" src="{{ "/assets/img/logo-small.svg" | relative_url }}"></a>
+          <br />
+          <br />
+        </div></li>
+      <li><a class="waves-effect waves-light" href="{{ "/" | relative_url }}">Start</a></li>
+      <li>
+        <div class="divider"></div>
+      </li>
+     
+      {% if page_paths %}
+      {% for path in page_paths %}
+      {% assign my_page = site.pages | where: "path", path | first %}
+      {% if my_page.title %}
+      <li><a class="waves-effect waves-light"
+          href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
+      {% endif %}
+      {% endfor %}
+      {% endif %}
+      <li><a class="waves-effect waves-light" href="{{ "/articles" | relative_url }}">Artikel</a></li>
+    </ul>

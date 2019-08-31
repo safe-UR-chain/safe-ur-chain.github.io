@@ -1,0 +1,106 @@
+---
+layout: default
+---
+<div id="home-carousel" class="carousel carousel-slider center">
+
+  <div class="carousel-fixed-item center">
+    <div class="carousel-buttns">
+      <a id="play-btn" class="btn btn-flat white-text waves-effect waves-light"><i class="mdi mdi-play"></i></a>
+      <a id="pause-btn" class="btn btn-flat white-text waves-effect waves-light"><i class="mdi mdi-pause"></i></a>
+    </div>
+    <div class="container">
+      <img class="logo-carousel" alt="safe-UR-chain" src="{{ "/assets/img/logo-large.png" | relative_url }}">
+    </div>
+  </div>
+
+  <div id="carousel-1" class="carousel-item white-text container" href="#one!">
+    <div class="hide-on-small-only">
+      <div class="container claim ">
+        <h2 class="typewriter">{{site.title}} ist... </h2>
+        <h5 class="lazy">{{site.claim }}</h5>
+      </div>
+    </div>
+  </div>
+  <div id="carousel-2" class="carousel-item amber white-text" href="#two!">
+    <h2>Partner ALTRAN</h2>
+    <p class="white-text">This is your second panel</p>
+  </div>
+  <div id="carousel-3" class="carousel-item green white-text" href="#three!">
+    <h2>Partner Hochschule Mittweida</h2>
+    <p class="white-text">This is your third panel</p>
+  </div>
+  <div id="carousel-4" class="carousel-item blue white-text" href="#four!">
+    <h2>Partner XENON</h2>
+    <p class="white-text">This is your fourth panel</p>
+  </div>
+  <div id="carousel-5" class="carousel-item orange white-text" href="#five!">
+    <h2>Partner Fraunhofer IWU</h2>
+    <p class="white-text">This is your fifth panel</p>
+  </div>
+</div>
+
+<div class="section no-pad-bot" id="index-banner">
+  <div class="container">
+    <h5 class="header center light">{{ content }}</h5>
+  </div>
+</div>
+
+<div class="container">
+  <div class="section scrollspy" id="get-startet">
+    <!--   Icon Section   -->
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center"><i class="mdi mdi-shield-link-variant-outline medium"></i></h2>
+          <h5 class="center">IT-Sicherheit</h5>
+          <p class="light">Wie man modernste IT-Sicherheitsmechanismen und
+            Blockchain-Technologien mit einander kombiniert, wird im Verbund erforscht.<br />
+            Durch die Integration beider Domänen wird ein deutlich höheres Maß an IT-Sicherheit erwartet,
+            als es bisher technisch möglich ist.</p>
+        </div>
+      </div>
+
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center"><i class="mdi mdi-factory medium"></i></h2>
+          <h5 class="center">Produktionsnetzwerke</h5>
+          <p class="light">Heutige Wertschöpfungsnetzwerke tauschen bereits automatisiert Daten aus.
+            Diese Branchennetzwerke sind angreifbar bzw. im Fokus von Cyber-Attaken.<br />
+            Die in safe-UR-chain erprobten Technologien sollen einen wesentlichen Beitrag zu 
+            manipulationssicher, redundanter und rückverfolgbarer Kommunikation leisten.</p>
+        </div>
+      </div>
+
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center"><i class="mdi mdi-router-wireless medium"></i></h2>
+          <h5 class="center">sichere Kommunikation</h5>
+          <p class="light">Als Schwerpunkt wird im Projekt die drahtlose und drahtgebundene Kommunikation
+            in Prozessketten untersucht. Die hierin anfallenden Daten stellen besonders kritische Bereiche der Produktion dar,
+            die durch neue IT-Sicherheitskonzepte abgesichert werden sollen.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container last-post">
+  <section>
+    <h5>Letzte Beiträge</h5>
+    <ul class="collection">
+      {% for post in site.posts limit:3 %}
+      <li class="collection-item avatar">
+        {% assign date_format = site.minima.date_format | default: "%m/%d" %}
+        <div class="date-post circle z-depth-3">{{ post.date | date: date_format }}</div>
+        <span class="title"><a class="post-link"
+            href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></span>
+        <p>
+          {{ post.content | truncatewords: 30 }}
+        </p>
+        <a href="{{ post.url | relative_url }}" class="secondary-content"><i
+            class="material-icons">navigate_next</i></a>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+</div>

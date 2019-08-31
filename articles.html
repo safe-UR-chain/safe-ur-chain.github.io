@@ -1,0 +1,78 @@
+---
+layout: default
+---
+
+<div class="container last-post">
+  <h1 class="page-title">Artikel zum Projekt</h1>
+  <h6>
+    Hier werden regelmäßig Projektfortschritte und Beiträge zum Projekt safe-UR-chain veröffentlicht.
+  </h6>
+  <br /><br />
+
+  <div class="row">
+    <div class="col s12 m8 l9">
+      <h5><i class="mdi mdi-clock-fast"></i> Letzte Beiträge</h5>
+
+      {% for post in site.posts limit:5 %}
+      {% assign date_format = site.minima.date_format | default: "%d.%m.%Y" %}
+      <div class="card medium">
+        <div class="card-image">
+          <a class="waves-effect waves-light" href="{{ post.url | relative_url }}">
+            <img src="{{ post.image | relative_url }}" />
+          </a>
+        </div>
+        <div class="card-content">
+          <span class="card-title" style="font-weight: 500">{{ post.title | escape }}</span>
+          <p>{{ post.content | truncatewords: 20 }}</p>
+        </div>
+        <div class="card-action">
+          <span class="light">{{ post.date | date: date_format }} • {{ post.author }}</span>
+          <a class="right" href="{{ post.url | relative_url }}">Weiterlesen</a>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+
+    <div class="col s12 m4 l3">
+      <h5 class="category-head"><i class="mdi mdi-book-open-page-variant"></i> Kategorien</h5>
+
+      {% for category in site.categories %}
+      <div class="archive-group">
+        {% capture category_name %}{{ category | first }}{% endcapture %}
+        <div id="#{{ category_name | slugize }}"></div>
+        <h6>{{ category_name }}</h5>
+          <a name="{{ category_name | slugize }}"></a>
+          {% for post in site.categories[category_name] %}
+          <article class="archive-item">
+            {% assign date_format = site.minima.date_format | default: "%Y-%m-%d" %}
+            <div class="chip"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.date | date: date_format }} -
+                {{ post.title | escape }}</a></div>
+          </article>
+          {% endfor %}
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="row">
+    <div class="col s12">
+      <h5 id="tags"><i class="mdi mdi-tag-text-outline"></i> Alle Tags</h5>
+    </div>
+
+    {% for tag in site.tags %}
+    <div class="col s12 m6 l4">
+      <h6 id="{{ tag[0] | slugify }}">{{ tag | first }}</h6>
+      {% for post in tag[1] %}
+      {% assign date_format = site.minima.date_format | default: "%Y-%m-%d" %}
+      <div class="chip"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.date | date: date_format }} -
+          {{ post.title | escape }}</a></div>
+      {% endfor %}
+    </div>
+    {% endfor %}
+
+  </div>
+</div>

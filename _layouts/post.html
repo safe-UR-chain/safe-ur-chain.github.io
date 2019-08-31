@@ -1,0 +1,67 @@
+---
+layout: default
+---
+<div class="parallax-container">
+  <div class="parallax">
+    <img src="{{ page.image | relative_url }}"></div>
+</div>
+
+<div class="container">
+  <div class="section">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+        {% assign tags = page.tags %}
+        <p class="post-meta">
+          <ul>
+            {% for tag in tags %}
+            <li><span class="badge badge-tag">{{ tag }}</span></li>
+            {% endfor %}
+          </ul>
+          <span class="light" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+            {{ page.date | date: date_format }}
+          </span>
+          {% if page.author %}
+          • <span class="light" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span itemprop="name">{{ page.author }}</span>
+          </span>
+          {% endif %}
+        </p>
+      </header>
+
+      <div class="post-content" itemprop="articleBody">
+
+        {{ content }}
+
+        {% for post in site.posts %}
+        {% if post.categories == page.categories %}
+        {% if post.title != page.title %}
+        {% assign related = true %}
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+
+        {% if related == true %}
+        <h6>See also:</h6>
+        <ul>
+          {% for post in site.posts %}
+          {% if post.categories == page.categories %}
+          {% if post.title != page.title %}
+          <li>
+            {% assign date_format = site.minima.date_format | default: "%Y-%m-%d" %}
+            <div class="chip"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.date | date: date_format }} -
+                {{ post.title | escape }}</a></div>
+          </li>
+          {% endif %}
+          {% endif %}
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+
+    </article>
+  </div>
+
+</div>

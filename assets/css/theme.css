@@ -1,0 +1,330 @@
+---
+# this is an empty front matter that instruct jekyll
+# to process this file with liquid
+---
+
+/* 
+ * START Materialize overrides 
+ */
+body {
+    color: #263238;
+}
+
+h6 { 
+    font-weight: 600;
+}
+
+a {
+    color: rgb(200,0,255);
+    transition: all .3s ease-in-out;  
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: rgb(200,0,255);
+}
+
+.btn, .btn-large {
+    background-color: rgb(0,200,255);
+}
+.btn-flat {
+    color: rgb(0,180,225);
+    background-color: transparent !important;
+}
+.btn:hover, .btn-large:hover {
+    background-color: rgb(0,180,225);
+}
+.btn.disabled, .disabled.btn-large, .disabled.btn-floating {
+    background-color:  #aaa !important;
+    color:#eceff1 !important;
+}
+
+i {
+    font-size: x-large;
+}
+
+nav {
+    background-color: #263238;
+}
+nav ul a {
+    color: rgb(0,200,255);
+}
+.divider {
+    background-color: rgba(55,55,55,0.5);
+}
+.sidenav {
+    background-color: #455a64;
+    color: white;
+}
+.sidenav li > a {
+    color: white;
+}
+
+.row .col.s12 {
+    margin-bottom: 1em;
+}
+
+table.striped>tbody>tr:nth-child(odd) { 
+    background-color: rgba(200,200,200,0.3);
+}
+table.highlight>tbody>tr:hover {
+    background-color: rgba(255,255,255,0.1);
+}
+
+blockquote {
+    border-left: 3px solid rgb(0,200,255);
+    border-radius: 3px;
+}
+
+.collection {
+    border-color: rgb(55,55,55);
+}
+.collection .collection-item {
+    background-color: rgba(200,200,200,0.3);
+    border-bottom: 1px solid rgb(55,55,55);
+}
+.secondary-content {
+    color: rgb(200,0,255);
+}
+
+.parallax-container {
+    height: 25em;
+}
+
+.banner {
+    /* -webkit-filter: grayscale(80%) contrast(1.2); /* Safari 6.0 - 9.0 */
+    filter: grayscale(60%) opacity(80%);
+    animation: 3s ease-in 0s 1 fadeIn;
+}
+@keyframes fadeIn {
+    0% {
+        filter: grayscale(100%) opacity(0%);
+    }
+    100% {
+        filter: grayscale(60%) opacity(80%);
+    }
+  }
+
+.sidenav-overlay {
+    z-index: 1;
+}
+
+.table-of-contents a.active {
+    border-left: 2px solid rgb(200,0,255);
+}
+
+.chip {
+    background-color:  rgba(200,200,200,0.5);
+    color: #eceff1;
+    white-space: nowrap;
+}
+
+.page-footer .footer-copyright {
+    color: #37474f;
+}
+.page-footer {
+    background-color: #cfd8dc;
+    color: #37474f;
+    margin-top: 20px;
+}
+
+figure {
+    border: 1px solid #03a9f4;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.3);
+}
+
+pre  {
+    margin: 0px;
+    padding: 10px;
+    -webkit-box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+}
+
+pre > code {
+    white-space: inherit;
+    border:none;
+    background-color: transparent;
+    padding: 0px;
+    border-radius: 3px;
+    line-height: initial !important;
+}
+
+code {
+    color: black;
+    font-family: 'Courier New', 'Courier', 'monospace';
+    border: 1px solid #aaa;
+    padding: 1px 5px 1px 5px;
+    border-radius: 3px;
+    background-color: rgba(200,200,200,0.3);
+    margin-right: 2px;
+    white-space: nowrap;
+    line-height: initial !important;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgba(55,55,55,0.5);
+}
+
+.ul-md, .ul-md > li {
+    list-style-type: disc !important;
+    margin-left: 10px;
+}
+
+span.badge-tag {
+    background-color: rgba(255,255,255,0.7);
+    color: #03a9f4;
+    border-radius: 3px;  
+    -webkit-box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+}
+
+/* 
+ * END Materialize overrides 
+ */
+
+.footer-copyright a {
+    color: #ba68c8;
+}
+
+.attention {
+    color: #ff7043;
+}
+/* meramid overrides */
+
+svg {
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important; /* 'Courier New', 'Courier', 'monospace'; */
+}
+div > .label {
+    font-family: inherit !important;
+
+}
+marker > path {
+    fill: #aaa !important;
+}
+rect {
+    stroke: #aaa !important;
+    fill: rgba(200,200,200,0.3) !important;
+}
+
+g.label {
+    color: #263238 !important;
+}
+
+g > path {
+    stroke: #aaa !important;
+}
+
+/* meramid overrides - END */
+
+.partner {
+    /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+      filter: gray; /* IE5+ */
+      -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+      -webkit-transition: all .5s ease-in-out;  
+      transition: all .5s ease-in-out;  
+    }
+
+    .partner:hover {
+    filter: none;
+      -webkit-filter: grayscale(0);
+    }
+
+.icon-block > h2 {
+    color: rgb(200,0,255);
+}
+
+.carousel-item {
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/* safe-ur-chain */
+#carousel-1 {
+    background-image: url("{{ "/assets/img/banner_1.jpg" | relative_url }}");
+}
+
+/* altran */
+#carousel-2 {
+    background-image: url("{{ "/assets/img/banner_2.jpg" | relative_url }}");
+}
+
+/* hsmw */
+#carousel-3 {
+    background-image: url("{{ "/assets/img/banner_3.jpg" | relative_url }}");
+}
+
+/* xenon */
+#carousel-4 {
+    background-image: url("{{ "/assets/img/banner_4.jpg" | relative_url }}");
+}
+
+/* iwu */
+#carousel-5 {
+    background-image: url("{{ "/assets/img/banner_5.jpg" | relative_url }}");
+}
+
+.carousel-buttns {
+    position: absolute;
+    right: 2em;
+    bottom: -3em;
+}
+
+/* animation */
+
+.claim {
+    font-family:'Courier New', 'Courier', 'monospace';
+    margin: 75px auto 0em auto;
+}
+.typewriter{
+    margin: 75px auto 0em auto;
+    width: 16em;
+    font-weight: 700 !important;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .1em solid rgb(200,0,255);; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    letter-spacing: .1em; /* Adjust as needed */
+    animation: 
+      typing 3s steps(30, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0% }
+    to { width: 16em; }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(200,0,255);; }
+  }
+
+.lazy {
+    -webkit-animation: fadeinLoad 1s 3.75s forwards;
+    animation: fadeinLoad 1s 3.75s forwards;
+    opacity: 0;
+  }
+  @-webkit-keyframes fadeinLoad {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes fadeinLoad {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
