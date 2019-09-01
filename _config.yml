@@ -5,7 +5,7 @@ email: adriansinger@iwu.fraunhofer.de
 description: >
   Eine Projektwebseite für das BMBF geförderte Projekt safe-UR-chain
 
-baseurl: "/Pages"
+baseurl: "/"
 
 sass:
     style: compressed
