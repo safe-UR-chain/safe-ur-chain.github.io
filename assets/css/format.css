@@ -32,3 +32,9 @@
 .card .card-content {
   padding: 12px;
 }
+
+pre {
+  margin: 0px;
+  padding: 10px;
+  overflow: auto;
+}
