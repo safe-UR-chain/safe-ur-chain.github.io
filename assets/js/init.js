@@ -8,7 +8,7 @@
     $("#pause-btn").on("click", pauseCarousel);
 
     // autoplay of the banner
-    setInterval(playCarousel, 7000);
+    setTimeout(playCarousel, 7000);
   });
 
   // functions 
