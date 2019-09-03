@@ -6,6 +6,9 @@
     initMaterialize();
     $("#play-btn").on("click", playCarousel);
     $("#pause-btn").on("click", pauseCarousel);
+
+    // autoplay of the banner
+    setInterval(playCarousel, 7000);
   });
 
   // functions 
@@ -28,8 +31,6 @@
       offset: 75
     });
 
-
-
     $('.carousel.carousel-slider').carousel({
       fullWidth: true,
       indicators: true,
@@ -50,7 +51,7 @@
   function playCarousel() {
     if (intervall === null) {
       triggerCarousel();
-      intervall = setInterval(triggerCarousel, 7000);
+      intervall = setInterval(triggerCarousel, 5500);
     }
   }
 
