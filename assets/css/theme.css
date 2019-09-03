@@ -19,18 +19,28 @@ a {
     transition: all .3s ease-in-out;  
 }
 
+.card-image .blur {
+
+}
+
+.card-title-bar {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
     color: rgb(200,0,255);
 }
 
-.btn, .btn-large {
+.btn, .btn-large, .btn-floating {
     background-color: rgb(0,200,255);
 }
 .btn-flat {
     color: rgb(0,180,225);
     background-color: transparent !important;
 }
-.btn:hover, .btn-large:hover {
+.btn:hover, .btn-large:hover, .btn-floating:hover {
     background-color: rgb(0,180,225);
 }
 .btn.disabled, .disabled.btn-large, .disabled.btn-floating {

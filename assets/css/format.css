@@ -29,6 +29,9 @@
   position: fixed !important;
 }
 
+.card .card-title {
+  font-weight: 400;
+}
 .card .card-content {
   padding: 12px;
 }

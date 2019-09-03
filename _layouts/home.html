@@ -66,7 +66,7 @@ layout: default
           <h5 class="center">Produktionsnetzwerke</h5>
           <p class="light">Heutige Wertschöpfungsnetzwerke tauschen bereits automatisiert Daten aus.
             Diese Branchennetzwerke sind angreifbar bzw. im Fokus von Cyber-Attaken.<br />
-            Die in safe-UR-chain erprobten Technologien sollen einen wesentlichen Beitrag zu 
+            Die in safe-UR-chain erprobten Technologien sollen einen wesentlichen Beitrag zu
             manipulationssicher, redundanter und rückverfolgbarer Kommunikation leisten.</p>
         </div>
       </div>
@@ -76,7 +76,8 @@ layout: default
           <h2 class="center"><i class="mdi mdi-router-wireless medium"></i></h2>
           <h5 class="center">sichere Kommunikation</h5>
           <p class="light">Als Schwerpunkt wird im Projekt die drahtlose und drahtgebundene Kommunikation
-            in Prozessketten untersucht. Die hierin anfallenden Daten stellen besonders kritische Bereiche der Produktion dar,
+            in Prozessketten untersucht. Die hierin anfallenden Daten stellen besonders kritische Bereiche der
+            Produktion dar,
             die durch neue IT-Sicherheitskonzepte abgesichert werden sollen.</p>
         </div>
       </div>
@@ -87,20 +88,26 @@ layout: default
 <div class="container last-post">
   <section>
     <h5>Letzte Beiträge</h5>
-    <ul class="collection">
+    <div class="row">
       {% for post in site.posts limit:3 %}
-      <li class="collection-item avatar">
-        {% assign date_format = site.minima.date_format | default: "%m/%d" %}
-        <div class="date-post circle z-depth-3">{{ post.date | date: date_format }}</div>
-        <span class="title"><a class="post-link"
-            href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></span>
-        <p>
-          {{ post.content | truncatewords: 30 }}
-        </p>
-        <a href="{{ post.url | relative_url }}" class="secondary-content"><i
-            class="material-icons">navigate_next</i></a>
-      </li>
+      {% assign date_format = site.minima.date_format | default: "%d.%m.%y" %}
+      <div class="col s12 m6">
+        <div class="card small">
+          <div class="card-image">
+            <a class="waves-effect waves-light" href="{{ post.url | relative_url }}">
+              <img src="{{ post.image | relative_url }}" />
+            </a>
+          </div>
+          <div class="card-content">
+            <span class="card-title">{{ post.title | escape }}</span>
+          </div>
+          <div class="card-action">
+            <span class="light">{{ post.date | date: date_format }} • {{ post.categories }}</span>
+            <a class="right" href="{{ post.url | relative_url }}">Weiterlesen</a>
+          </div>
+        </div>
+      </div>
       {% endfor %}
-    </ul>
+    </div>
   </section>
 </div>

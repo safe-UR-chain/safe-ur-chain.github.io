@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Adrian Singer
-description: Projekt und Webseite für safe-UR-chain gestartet
+description: Das Projekt safe-UR-chain und Webseite sind Anfang September gestartet.
 categories: Allgemein
 image: /assets/img/posts/welcome.jpg
 ---
@@ -14,6 +14,6 @@ Titel des Vorhabens:
 
 Ziel des Projektes ist die Entwicklung und Erprobung sicherer Kommunikationsnetzwerke, die firmenübergreifend genutzt werden können, um die Wertschöpfungsnetzwerke gegen Cyber-Attakten zu schützen und gleichermaßen die Geschäftsprozesse zu verbessern.
 
-Das Verbundprojekt um die Partner Altran, Hochschule Mittweida, XENON und das Fraunhofer IWU als Projektkoordinator hat eine Laufzeit von drei Jahren. Die assoziierten Partner Continental am Standort Limbach-Oberfrohna und in.hub beteiligen sich ebenfalls mit praxisrelevanten Anwendungsfällen und Expertise. 
+Das Verbundprojekt um die Partner Altran, Hochschule Mittweida, XENON und das Fraunhofer IWU als Projektkoordinator hat eine Laufzeit von drei Jahren. Die assoziierten Partner Continental am Standort Limbach-Oberfrohna und in.hub beteiligen sich ebenfalls mit praxisrelevanten Anwendungsfällen und ihrer technologischen Expertise. 
 
 Weiter Informationen zum Projekt gibt es [hier](/project).
