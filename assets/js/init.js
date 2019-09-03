@@ -12,8 +12,12 @@
 
   function initMaterialize() {
 
+    $('.scrollspy').scrollSpy();
+    
     M.AutoInit();
 
+    $('.materialboxed').materialbox();
+    
     $('.parallax').parallax();
 
     $('.sidenav').sidenav();
@@ -24,7 +28,7 @@
       offset: 75
     });
 
-    $('.scrollspy').scrollSpy();
+
 
     $('.carousel.carousel-slider').carousel({
       fullWidth: true,
