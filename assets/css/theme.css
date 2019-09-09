@@ -284,6 +284,18 @@ g > path {
     bottom: -3em;
 }
 
+.banner-text {
+    margin-top: 3em;
+    background-color: rgba(0,0,0,0.65);
+    display: grid;
+    -webkit-box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+}
+
+.banner-text > p {
+    padding-bottom: 0.5em;
+}
+
 /* animation */
 
 .claim {
