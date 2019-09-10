@@ -10,7 +10,7 @@ permalink: /demo/
 
 Diese statische Webseite wird auf [GitHub Pages](https://pages.github.com/) kostenfrei gehostet. Serverseitig verarbeitet [Jekyll](https://jekyllrb.com/) die Inhalte um eine "Blog-aware" Webseite zu generieren.
 
-**Zur Mitwirkung** kann man direkt die Inhalte auf GitHub aktualisieren, hat jedoch bis zum Deployment einen Zeitversatz von einigen Sekunden.
+**Zur Mitwirkung** kann man direkt die Inhalte in dem [GitHub Repository](https://github.com/safe-UR-chain/safe-ur-chain.github.io) aktualisieren, hat jedoch bis zum Deployment einen Zeitversatz von einigen Sekunden.
 > Daher empfiehlt es sich das Repository auszuchecken und lokal zu bearbeiten. Für eine Live-Vorschau muss **Jekyll** lokal installiert sein.
 > Eine Anleitung für Linux und Windows findet man [hier](https://jekyllrb.com/docs/installation/).
 > Man sollte einen Texteditor einsetzen, der u.a. Markdown-Unterstützung bietet. [VS Code](https://code.visualstudio.com/) ist ein guter und kostenfreier Vertreter.
