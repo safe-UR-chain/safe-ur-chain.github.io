@@ -15,9 +15,11 @@
 
   function initMaterialize() {
 
-    $('.scrollspy').scrollSpy();
-    
     M.AutoInit();
+
+    $('.scrollspy').scrollSpy( {
+      scrollOffset: 0
+    });
 
     $('.materialboxed').materialbox();
     
