@@ -38,7 +38,7 @@ Bei einem Mittagsbuffet wurden die Gespräche fortgesetzt, woran sich ein Rundga
       <img src="{{ "/assets/img/posts/kickoff-2.jpg" | relative_url }}">
     </div>
     <div class="carousel-item" href="#three!">
-      <img src="{{ "/assets/img/posts/kickoff-3.jpg" | relative_url }}">
+      <img src="{{ "/assets/img/posts/kickoff-3.JPG" | relative_url }}">
     </div>
     <div class="carousel-item" href="#four!">
       <img src="{{ "/assets/img/posts/kickoff-4.jpg" | relative_url }}">
