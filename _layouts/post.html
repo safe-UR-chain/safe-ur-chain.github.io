@@ -44,7 +44,10 @@ layout: default
         {% endfor %}
 
         {% if related == true %}
-        <h6>See also:</h6>
+        
+        <br />
+        <hr />
+        <h6>Auch interessant:</h6>
         <ul>
           {% for post in site.posts %}
           {% if post.categories == page.categories %}

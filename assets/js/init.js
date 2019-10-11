@@ -32,13 +32,6 @@
       top: 150,
       offset: 75
     });
-
-    $('.carousel.carousel-slider').carousel({
-      fullWidth: true,
-      indicators: true,
-      duration: 500
-    });
-
   }
 
   function triggerCarousel() {

@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% assign date_format = site.minima.date_format | default: "%d.%m.%Y" %}
 
 <div class="container last-post">
   <h1 class="page-title">Artikel zum Projekt</h1>
@@ -14,7 +15,6 @@ layout: default
       <h5><i class="mdi mdi-clock-fast"></i> Letzte Beiträge</h5>
 
       {% for post in site.posts limit:5 %}
-      {% assign date_format = site.minima.date_format | default: "%d.%m.%Y" %}
       <div class="card medium">
         <div class="card-image">
           <a class="waves-effect waves-light" href="{{ post.url | relative_url }}">
@@ -45,7 +45,6 @@ layout: default
           <a name="{{ category_name | slugize }}"></a>
           {% for post in site.categories[category_name] %}
           <article class="archive-item">
-            {% assign date_format = site.minima.date_format | default: "%Y-%m-%d" %}
             <div class="chip"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.date | date: date_format }} -
                 {{ post.title | escape }}</a></div>
           </article>
@@ -54,25 +53,5 @@ layout: default
       {% endfor %}
 
     </div>
-  </div>
-
-  <hr>
-
-  <div class="row">
-    <div class="col s12">
-      <h5 id="tags"><i class="mdi mdi-tag-text-outline"></i> Alle Tags</h5>
-    </div>
-
-    {% for tag in site.tags %}
-    <div class="col s12 m6 l4">
-      <h6 id="{{ tag[0] | slugify }}">{{ tag | first }}</h6>
-      {% for post in tag[1] %}
-      {% assign date_format = site.minima.date_format | default: "%Y-%m-%d" %}
-      <div class="chip"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.date | date: date_format }} -
-          {{ post.title | escape }}</a></div>
-      {% endfor %}
-    </div>
-    {% endfor %}
-
   </div>
 </div>
