@@ -32,6 +32,12 @@
       top: 150,
       offset: 75
     });
+
+    $('#home-carousel').carousel({
+      fullWidth: true,
+      indicators: true,
+      duration: 500
+    });
   }
 
   function triggerCarousel() {
