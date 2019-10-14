@@ -3,7 +3,7 @@
 This page is published on https://safe-ur-chain.github.io/
 
 Learn more about
-[GitHub Pages](https://pages.github.com/)
+[GitHub Pages](http://pages.github.com/)
 or about
 [using Jekyll](https://help.github.com/en/articles/using-jekyll-as-a-static-site-generator-with-github-pages).
 
