@@ -1,6 +1,7 @@
 (function ($) {
 
   var intervall = null;
+  var duration = 5500;
 
   $(document).ready(function () {
     initMaterialize();
@@ -8,7 +9,7 @@
     $("#pause-btn").on("click", pauseCarousel);
 
     // autoplay of the banner
-    setTimeout(playCarousel, 7000);
+    setTimeout(playCarousel, duration);
   });
 
   // functions 
@@ -36,7 +37,10 @@
     $('#home-carousel').carousel({
       fullWidth: true,
       indicators: true,
-      duration: 500
+      duration: 300,
+      onCycleTo: function(e) {
+        manualCarousel();
+      }
     });
   }
 
@@ -52,7 +56,14 @@
   function playCarousel() {
     if (intervall === null) {
       triggerCarousel();
-      intervall = setInterval(triggerCarousel, 5500);
+      intervall = setInterval(triggerCarousel, duration);
+    }
+  }
+
+  function manualCarousel() {
+    if (intervall !== null) {
+      pauseCarousel();
+      intervall = setInterval(triggerCarousel, duration);
     }
   }
 

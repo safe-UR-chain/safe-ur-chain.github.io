@@ -278,6 +278,16 @@ g > path {
     background-image: url("{{ "/assets/img/banner_5.jpg" | relative_url }}");
 }
 
+/* iwu */
+#carousel-6 {
+    background-image: url("{{ "/assets/img/banner_6.jpg" | relative_url }}");
+}
+
+/* iwu */
+#carousel-7 {
+    background-image: url("{{ "/assets/img/banner_7.jpg" | relative_url }}");
+}
+
 .carousel-buttns {
     position: absolute;
     right: 2em;
