@@ -169,7 +169,7 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid rgba(55,55,55,0.5);
+    border-top: 1px solid rgba(55,55,55,0.25);
 }
 
 .ul-md, .ul-md > li {
