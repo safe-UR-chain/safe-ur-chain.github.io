@@ -16,4 +16,4 @@ Ziel des Projektes ist die Entwicklung und Erprobung sicherer Kommunikationsnetz
 
 Das Verbundprojekt um die Partner Altran, Hochschule Mittweida, XENON und das Fraunhofer IWU als Projektkoordinator hat eine Laufzeit von drei Jahren. Die assoziierten Partner Continental am Standort Limbach-Oberfrohna und in.hub beteiligen sich ebenfalls mit praxisrelevanten Anwendungsfällen und ihrer technologischen Expertise. 
 
-Weiter Informationen zum Projekt gibt es [hier](/project).
+###### Weitere Informationen zum Projekt gibt es [hier](/project).

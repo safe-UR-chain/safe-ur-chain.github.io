@@ -35,6 +35,19 @@ layout: default
 
         {{ content }}
 
+        <br />
+        <hr />
+        <div class="row">
+          <div class="col s12 m4 l6">
+            {% assign link = site.url | append: site.baseurl | append: page.url %}
+            <h6>Weiterleiten</h6>
+            <a class="btn blue-grey" href="mailto:?subject={{ site.title }}%20{{ page.title }}&body=Besuchen Sie die Seite: {{ link }}.">
+              <i class="mdi mdi-email-outline"></i></a>
+            <a class="btn blue-grey darken-2" onclick="copyTextToClipboard( '{{ link }}' )">
+              <i class="mdi mdi-content-copy"></i></a>
+          </div>
+        </div>
+
         {% for post in site.posts %}
         {% if post.categories == page.categories %}
         {% if post.title != page.title %}
@@ -44,7 +57,7 @@ layout: default
         {% endfor %}
 
         {% if related == true %}
-        
+
         <br />
         <hr />
         <h6>Auch interessant:</h6>
