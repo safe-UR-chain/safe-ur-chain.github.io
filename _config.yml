@@ -11,7 +11,7 @@ claim: 'Sicherheit und Nachverfolgbarkeit in zivilen Produktions- und Wertschöp
 author: Adrian Singer
 email: adrian.singer@iwu.fraunhofer.de
 description: > # this means to ignore newlines until "baseurl:"
-  Eine Projektwebseite für das BMBF geförderte Projekt safe-UR-chain
+  Das vom BMBF geförderte Projekt safe-UR-chain befasst sich mit der Sicherstellung angriffs- und fälschungssicherer Datenströme innerhalb eines Unternehmens und in Wertschöpfungsnetzwerken.
 
 baseurl: "/"
 
