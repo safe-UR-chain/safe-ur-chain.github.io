@@ -6,7 +6,6 @@ categories: Projekttreffen
 image: /assets/img/posts/kickoff-banner.jpg
 ---
 
-
  <div class="row">
                 <div class="col s12 m12 l4 center">
                     <img alt="hsmw" width="100%" class="z-depth-3 hide-on-large-only" src="{{ "/assets/img/posts/kickoff.jpg" | relative_url }}" />
