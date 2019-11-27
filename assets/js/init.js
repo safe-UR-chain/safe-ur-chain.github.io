@@ -43,7 +43,8 @@
     });
 
     $('.carousel').carousel({
-      indicators: true
+      indicators: true,
+      fullWidth: true,
     });
   }
 
