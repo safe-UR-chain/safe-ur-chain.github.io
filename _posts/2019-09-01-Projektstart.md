@@ -2,7 +2,7 @@
 layout: post
 author: Adrian Singer
 description: Das Projekt safe-UR-chain und Webseite sind Anfang September gestartet.
-categories: Allgemein
+categories: Allgemeines
 image: /assets/img/posts/welcome.jpg
 ---
 

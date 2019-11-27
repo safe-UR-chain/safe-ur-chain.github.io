@@ -23,9 +23,8 @@
     });
 
     $('.materialboxed').materialbox();
-    
     $('.parallax').parallax();
-
+    $('.slider').slider();
     $('.sidenav').sidenav();
     $('.modal').modal();
   
@@ -41,6 +40,10 @@
       onCycleTo: function(e) {
         manualCarousel();
       }
+    });
+
+    $('.carousel').carousel({
+      indicators: true
     });
   }
 

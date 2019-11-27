@@ -3,7 +3,7 @@ layout: post
 author: Adrian Singer
 title: Blockchain Day in Berlin
 description: Am 5. November fand der Fraunhofer-Tag der Blockchain-Technologie in Berlin statt und wir waren dabei.
-categories: Allgemein
+categories: Allgemeines
 image: /assets/img/posts/blockchainday-banner.jpg
 ---
 

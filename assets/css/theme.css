@@ -44,6 +44,10 @@ a {
     color:#eceff1 !important;
 }
 
+.slider .indicators .indicator-item.active {
+    background-color: rgb(200,0,255);
+}
+
 i {
     font-size: x-large;
 }
