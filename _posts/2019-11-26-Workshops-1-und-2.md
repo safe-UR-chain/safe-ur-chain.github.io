@@ -8,15 +8,15 @@ image: /assets/img/posts/arbeitstreffen_I-banner.jpg
 ---
 
 Das Projektteam hat sich im Laufe seiner aktuellen Konzeptarbeit zu einem zweitägigen Arbeitstreffen in Sachsen eingefunden.
-Gastgeber waren die Partner **XENON** und **Vitesco Technlogies**, die am 25. November in Dresden und am 26. November im Limbach-Oberfrohna zur Werksbesichtigung und konzentrierter Projektarbeit eingeladen haben.
+Gastgeber waren die Partner **XENON** und **Vitesco Technologies**, die am 25. November in Dresden und am 26. November im Limbach-Oberfrohna zur Werksbesichtigung und konzentrierter Projektarbeit eingeladen haben.
 
 ##### Tag 1 in Dresden 
 Der 25. November begann in den Räumlichkeiten von XENON mit der Begrüßung neuer Projektmitarbeiter und einem spannenden Rundgang durch die Montage des Sonderanlagenbauers. Dabei konnten auch einige Messeanlagen besichtigt werden. Der restliche Arbeitstag wurde mit einer [Lean-Coffee](https://leancoffee.org/) Methode moderiert und diente der Arbeit an der Spezifikation des Gesamtsystems aus Sicht des Anlagenbauers.
 
-Den Abend vebrachte ein Teil der Runde im [Spohienkeller](https://sophienkeller-dresden.de/) in der Dresdner Altstatt mit historischer Live-Musik und Erlebnis-Gastronomie. 
+Den Abend verbrachte ein Teil der Runde im [Spohienkeller](https://sophienkeller-dresden.de/) in der Dresdner Altstadt mit historischer Live-Musik und Erlebnis-Gastronomie.
 
 ##### Tag 2 in Limbach-Oberfrohna 
-Bei Vitesco Technologies begab sich das Projektteam nach einem kurzen Rückblick ebenfalls auf eine rund einstündige Werksbesichtigung. Es gab faszinierende Einblicke in die Produktion, Montage und die umfassenden Qualitätskontrollen für die gefertigten Produkte. Die Breite der technologischen Herausforderungen und die notwendige Präzision wurden gleichermaßen anschaulich wie unterhaltsam vorgestellt. Im Workshop konnten die Beteiligten gut an die Erkenntnisse des Vortags anknüpfen und eine weitreichende Konzeption gemeinsam mit dem Anwendungspartner Vitesco entwickeln. 
+Bei Vitesco Technologies begab sich das Projektteam nach einem kurzen Rückblick ebenfalls auf eine rund einstündige Werksbesichtigung. Gezeigt wurden faszinierende Einblicke in die Produktion, Montage und die umfassenden Qualitätskontrollen für die gefertigten Produkte. Die Breite der technologischen Herausforderungen und die notwendige Präzision wurden gleichermaßen anschaulich wie unterhaltsam vorgestellt. Im Workshop konnten die Beteiligten gut an die Erkenntnisse des Vortags anknüpfen und eine weitreichende Konzeption gemeinsam mit dem Anwendungspartner Vitesco entwickeln. 
 
 <div class="container">
 <div class="carousel carousel-slider center">
