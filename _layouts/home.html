@@ -112,7 +112,7 @@ layout: default
   <section>
     <h5>Letzte Beiträge</h5>
     <div class="row">
-      {% for post in site.posts limit:3 %}
+      {% for post in site.posts limit:4 %}
       {% assign date_format = site.minima.date_format | default: "%d.%m.%y" %}
       <div class="col s12 m6">
         <div class="card small">
