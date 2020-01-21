@@ -42,3 +42,6 @@ pre {
   padding: 10px;
   overflow: auto;
 }
+foreignObject {
+  text-align: center;
+}
