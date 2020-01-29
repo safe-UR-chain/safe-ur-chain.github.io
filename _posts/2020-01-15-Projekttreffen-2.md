@@ -36,4 +36,4 @@ graph TB
 
 ##### Fazit
 
-Die bisherigen Arbeitsstände sind vielversprechend und so wird die Analysephase planmäßig bis Erreichen des ersten Meilensteins im Ende Mai abgeschlossen. In den nächsten Wochen werden erste Versuche zur Überprüfung der Konzepte erfolgen. Der Koordinator bedankt sich bei allen Beteiligten für die gute Zusammenarbeit und freut sich auf das nächste Verbundtreffen.
+Die bisherigen Arbeitsstände sind vielversprechend und so wird die Analysephase planmäßig bis zum Erreichen des ersten Meilensteins Ende Mai abgeschlossen sein. In den nächsten Wochen werden erste Versuche zur Überprüfung der Konzepte erfolgen. Der Koordinator bedankt sich bei allen Beteiligten für die gute Zusammenarbeit und freut sich auf das nächste Verbundtreffen.
