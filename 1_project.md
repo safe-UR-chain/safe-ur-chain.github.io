@@ -24,3 +24,9 @@ Durch den Einsatz modernster Lösungen zur Überwachung der Kommunikation zwisch
 ##### Innovation
 
 Durch die Realisierung des safe-UR-chain Systems wird ein wichtiger Beitrag zur Absicherung ziviler Produktions- und Wertschöpfungsnetzwerke geleistet. Durch die fest verankerten Schutzmaßnahmen werden mangelhafte oder manipulierte Produktionsdaten erkannt, bevor Produkte in der Weiterverarbeitung wirtschaftliche Schäden verursachen oder beim Endverbraucher im öffentlichen Raum eine Bedrohung für die zivile Sicherheit darstellen können.
+
+##### Sicherheitsforschungsprogramm
+
+Das **Bundesministerium für Bildung und Forschung** (BMBF) bündelt alle Forschungsprojekte unter dem Dach der Sicherheitsforschung. Weiter Informationen erhält man auf der Internetseite [sifo.de](https://www.sifo.de/).
+
+Den Projektsteckbrief zum safe-UR-chain Projekt findet man <a href="http://safe-ur-chain.sifo.de/" target="_blank">hier <i class="mdi mdi-open-in-new tiny"></i></a>.

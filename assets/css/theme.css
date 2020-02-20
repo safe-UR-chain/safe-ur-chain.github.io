@@ -132,10 +132,17 @@ blockquote {
     color: #37474f;
 }
 .page-footer {
-    background-color: #cfd8dc;
+    background-color: #eff6fa;
     color: #37474f;
     margin-top: 20px;
 }
+
+.page-footer a {
+    color: #37474f;
+}
+    .page-footer a:hover {
+        color:rgb(200,0,255);
+    }
 
 figure {
     border: 1px solid #03a9f4;
