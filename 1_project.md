@@ -27,6 +27,6 @@ Durch die Realisierung des safe-UR-chain Systems wird ein wichtiger Beitrag zur 
 
 ##### Sicherheitsforschungsprogramm
 
-Das **Bundesministerium für Bildung und Forschung** (BMBF) bündelt alle Forschungsprojekte mit Fokus auf zivile Sicherheitslösungen unter dem Dach der Sicherheitsforschung. Weiter Informationen erhält man auf der Internetseite [sifo.de](https://www.sifo.de/).
+Das **Bundesministerium für Bildung und Forschung** (BMBF) bündelt alle Forschungsprojekte, die einen Fokus auf zivile Sicherheitslösungen setzen, unter dem Dach der Sicherheitsforschung. Weiter Informationen erhält man auf der Internetseite <a href="https://www.sifo.de/" target="_blank">sifo.de <i class="mdi mdi-open-in-new tiny"></i></a>.
 
 Den Projektsteckbrief zum safe-UR-chain Projekt findet man <a href="http://safe-ur-chain.sifo.de/" target="_blank">hier <i class="mdi mdi-open-in-new tiny"></i></a>.
