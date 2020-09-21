@@ -86,11 +86,11 @@ blockquote {
 }
 
 .collection {
-    border-color: rgb(55,55,55);
+    /* border-color: rgb(55,55,55); */
+    border: none;
 }
-.collection .collection-item {
+.collection-item:hover { 
     background-color: rgba(200,200,200,0.3);
-    border-bottom: 1px solid rgb(55,55,55);
 }
 .secondary-content {
     color: rgb(200,0,255);
