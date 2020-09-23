@@ -28,12 +28,10 @@
     // -- functions
 
     function initSvg() {
-        var h = Math.max(body.scrollHeight, body.offsetHeight,
-            html.clientHeight, html.scrollHeight, html.offsetHeight) - 100;
-    
+        var h = $(window).height() - 100;
         // Set the dimensions and margins of the diagram
         margin = { top: 20, right: 90, bottom: 30, left: 90 },
-            width = html.clientWidth * 0.65,
+            width = $(window).width() * 0.65,
             height = h - margin.top - margin.bottom;
     }
 
