@@ -7,152 +7,308 @@ app: security
 
 <h1 class="page-title"> {{ page.title | escape }}</h1>
 
-<h5>IT Sicherheit - Was ist das eigentlich genau?</h5>
 <div class="row">
-    <div class="col s12 m6 l4">
-        Wenn man sich mit dem Thema IT Sicherheit beschäftigt, stellt man schnell fest,
-        dass dies allein ein extrem vielschichtiger Themenkomplex ist. Zunächst sollten die folgenden Begriffe
-        unterschieden werden.
-    </div>
-    <div class="col s12 m6 l8">
-        <ul class="collection">
-            <li class="collection-item">1. IT Sicherheit</li>
-            <li class="collection-item">2. Cyber-Sicherheit (auch Cyber-Security)</li>
-            <li class="collection-item">3. Informationssicherheit</li>
-        </ul>
+    <div class="col s12 m9 l10">
+
+        <h5 id="intro" class="section scrollspy">IT Sicherheit - Was ist das eigentlich genau?</h5>
+        <div class="row">
+            <div class="col s12 m6 l4">
+                Wenn man sich mit dem Thema IT Sicherheit beschäftigt, stellt man schnell fest,
+                dass dies allein ein extrem vielschichtiger Themenkomplex ist. Zunächst sollten die folgenden Begriffe
+                unterschieden werden.
+            </div>
+            <div class="col s12 m6 l8">
+                <ul class="collection">
+                    <li class="collection-item">1. IT Sicherheit</li>
+                    <li class="collection-item">2. Cyber-Sicherheit (auch Cyber-Security)</li>
+                    <li class="collection-item">3. Informationssicherheit</li>
+                </ul>
+
+            </div>
+            <div class="col s12">
+                IT Sicherheit und Cyber-Sicherheit wird vom Bundesamt für Sicherheit in der Informationstechnik (BSI)
+                wie folgt
+                definert:
+                <blockquote>
+                    Cyber-Sicherheit befasst sich mit allen Aspekten der Sicherheit in der Informations- und
+                    Kommunikationstechnik.
+                    Das Aktionsfeld der Informationssicherheit wird dabei auf den gesamten Cyber-Raum ausgeweitet.
+                    Dieser umfasst sämtliche mit dem Internet und vergleichbaren Netzen verbundene Informationstechnik
+                    und
+                    schließt darauf basierende Kommunikation, Anwendungen, Prozesse und verarbeitete Informationen mit
+                    ein.
+                    <p class="right">
+                        zur Quelle:
+                        <a target="_blank"
+                            href="https://www.bsi.bund.de/DE/Themen/Cyber-Sicherheit/cyber-sicherheit_node.html">
+                            <i class="mdi mdi-open-in-new tiny"></i></a>
+                    </p>
+                </blockquote>
+                Informationssicherheit schließt also verschiedene Aspekte mit ein. Dazu gehören das große Feld der IT
+                Sicherheit, aber auch Schutz der Persönlichen Daten nach Datenschutzgrundverordnung, Schutz von
+                Intellectual
+                Property (IP) und Patenten, aber den Schutz auch Unternehmens- Kunden und Produktdaten im weiteren
+                Sinne. Um
+                all
+                diese Informationen zu schützen bedarf es zunächst einer klaren Kategorisierung der Handlungsfelder in
+                denen
+                man
+                diese Informationssicherheit erreichen kann.
+            </div>
+        </div>
+
+        <h6>1. Physische Sicherheit</h6>
+        <div class="row">
+            <div class="col s12 m6 l7">
+                Hierzu gehören Handlungsfelder wie:
+                <ul class="collection">
+                    <li class="collection-item">Zutrittskontrollen</li>
+                    <li class="collection-item">Zutrittslimitierungen</li>
+                    <li class="collection-item">Zutrittsdokumentationen</li>
+                    <li class="collection-item">Alarm- und Überwachungssysteme</li>
+                </ul>
+            </div>
+            <div class="col s12 m6 l5 center">
+                <img alt="Physische Sicherheit" width="80%" class="z-depth-3"
+                    src="{{ "/assets/img/security/01.jpg" | relative_url }}" />
+            </div>
+        </div>
+
+        <h6>2. IT Sicherheit (Technische Sicherheit)</h6>
+        <div class="row">
+            <div class="col s12 m6 l5 center">
+                <img alt="IT Sicherheit" width="80%" class="z-depth-3"
+                    src="{{ "/assets/img/security/02.jpg" | relative_url }}" />
+            </div>
+            <div class="col s12 m6 l7">
+                Unter diesem Punkt kann man recht allgemein die folgenden Aspekte nennen. Es ist wichtig festzuhalten,
+                dass der Einsatz der Technologien auf den zu schützenden Informationsverbund bzw. das IT System,
+                zugeschnitten sein sollten und den Schutzbedarfen der zu schützenden Informationen Rechnung tragen
+                sollte:
+                <ul class="collection">
+                    <li class="collection-item">Einsatz von Verschlüsselung</li>
+                    <li class="collection-item">Einsatz von Firewalls und Antivirenlösungen</li>
+                    <li class="collection-item">Einsatz von Intelligent Thread Detection Lösungen</li>
+                    <li class="collection-item">Gut geführtes Asset- und Patchmanagement</li>
+                    <li class="collection-item">Klares Management zu Nutzerrollen, deren Zugriffen, sowie die
+                        dazugehörige
+                        Dokumentation</li>
+                </ul>
+            </div>
+        </div>
+
+        <h6>3. Organisatorische Sicherheit</h6>
+        <div class="row">
+            <div class="col s12 m6 l6">
+                Dieser Punkt stellt wahrscheinlich die größte Herausforderung für die Sicherstellung von
+                Informationssicherheit
+                dar, da er am abstraktesten ist und für Unternehmen breit ausgelegt werden kann. Unter Maßnahmen für die
+                angemessene Sicherstellung von Informationssicherheit können beispielsweise genannt werden:
+            </div>
+            <div class="col s12 m6 l6 center">
+                <img alt="Organisatorische Sicherheit" width="80%" class="z-depth-3"
+                    src="{{ "/assets/img/security/03.jpg" | relative_url }}" />
+            </div>
+            <div class="col s12">
+                <ul class="collection">
+                    <li class="collection-item">Klare Kommunikation und Vorleben des Themas Informationssicherheit durch
+                        das
+                        Management auch durch z.B. öffentlich einsehbaren Verhaltenskodex / Code of Conduct oder andere
+                        Dokumente, die im Unternehmen öffentlich zugänglich sind und verdeutlichen, dass der
+                        Unternehmensführung
+                        das Thema wichtig ist.</li>
+                    <li class="collection-item">Clean Desk Policy </li>
+                    <li class="collection-item">Entwicklung und Publikation von eigenen, für das Unternehmen und
+                        angeschlossene Partner verbindlichen geltende Richtlinien zur Einhaltung der
+                        Informationssicherheit
+                        (z.B. SOPs oder IT Security Regulations)</li>
+                    <li class="collection-item">Die klare Aufforderung zur Einhaltung von, sowie auch die Publikation
+                        von
+                        Sanktionen bei Verstöße gegen legale, ethische und intern geltende Vorgaben (z.B DSGVO oder
+                        interne
+                        Regelungen)</li>
+                    <li class="collection-item">Betrieb und Aufrechterhaltung eines Information Security Managment
+                        System
+                        (ISMS) sowie ggf. die Zertifzierung selbigens (e.g. ISO27001 or TISAX Certification)</li>
+                    <li class="collection-item">Ernennung von Ansprechpartnern im Unternehmen ( z.B.
+                        Informationssicherheitsbeauftragter / CISO o.ä.)</li>
+                    <li class="collection-item">und vieles mehr...</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+        <h5 id="implementation" class="section scrollspy">Wie wird Informationssicherheit genau realisiert?</h5>
+
+        <h6>1. Schutzziele definieren</h6>
+        <div class="row">
+            <div class="col s12 m6 l6">
+                Wie in der Definition erwähnt ist es wichtig das Schutzziel der zu schützenden Informationen zu
+                definieren. Die
+                folgende Pyramide zeigt die wichtigsten drei Schutzziele. Es gibt auch erweiterte Schutzziele, die aber
+                im
+                Regelfall
+                eines der Hauptschutzziele unterstützen. Man spricht hier auch von den CIA Zielen:
+                <ul class="collection">
+                    <li class="collection-item">Confidentiality (Vertraulichkeit)</li>
+                    <li class="collection-item">Integrity (Integrität, Manipulationssicherheit)</li>
+                    <li class="collection-item">Availability (Verfügbarkeit)</li>
+                </ul>
+            </div>
+            <div class="col s12 m6 l6 center">
+                <img alt="CIA Ziele" width="80%" class="z-depth-3"
+                    src="{{ "/assets/img/security/cia.png" | relative_url }}" />
+            </div>
+        </div>
+
+        <h6>2. Schutzbedarf festlegen</h6>
+        <div class="row">
+            <div class="col s12 m6 l6 ">
+                Wenn man das Schutzziel für Informationen eines bestimmten Prozesses, einer Abteilung oder bespielsweise
+                eines Standortes einer Organisation definiert hat, ist es nun wichtig herauszuarbeiten, wie hoch der
+                Schutzbedarf der
+                einzelnen Schutzziele für die prozessierte Information ist. Dazu müssen die Informationsschutzbedarfe
+                festgelegt
+                werden. Dies kann z.B. anhand der folgenden Pyramide geschehen.
+            </div>
+            <div class="col s12 m6 l6 center">
+                <img alt="Schutzbedarf" width="80%" class="z-depth-3"
+                    src="{{ "/assets/img/security/security-levels.png" | relative_url }}" />
+            </div>
+            <div class="col s12">
+                Das Rating ist frei wählbar und kann beliebig mehrstufig sein, solange es ihrer Organisation dient.
+                Jedes
+                Schutzziel einer zu schützenden Information sollte nun im Hinblick auf seinen Schutzbedarf eigenordnet
+                werden.
+                Üblicherweise gilt für eine Information die Schutzstufe, des Schutzbedarfes mit der höchsten
+                Schutzstufe. Wenn
+                also der Schutzbedarf für Integrität „sehr hoch“ ist, aber die Schutzbedarfe für Verfügbarkeit und
+                Vertralichkeit nur „mittel“ sind, dass gilt für die jeweilige Information also der Schutzbedarf „sehr
+                hoch“
+            </div>
+        </div>
+
+        <h6>3. Maßnahmen zum Sicherstellung des Schutzbedarfes</h6>
+        <div class="row">
+            <div class="col s12">
+                Sobald die Schutzziele für dei Informationen definiert wurden, ist es wichtig die „angemessenen
+                Maßnahmen“ zur
+                Sicherstellung des Schutzbedarfes einzuleiten. Die folgende Tabelle zeigt einige Beispiele. Wichtig ist
+                dabei
+                das „angemessen“ zu berücksichtigen. Ähnlich wie im Risikomanagement kann eine Maßnahme auch „Akzeptanz“
+                sein.
+                Dies ist dann sinnvoll, wenn die Auswirkungen einer Möglichen Verletzung der Informationssicherheit
+                niedriger
+                sind, als die Auswirkungen der Maßnahmen zur Sicherstellung selbiger.
+            </div>
+            <div class="col s12">
+                <table class="striped">
+                    <thead>
+                        <th>Schutzziel</th>
+                        <th>Maßnahmen</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Confidentiality</td>
+                            <td>Access Management / Multi-Factor Authentication / Encryption </td>
+                        </tr>
+                        <tr>
+                            <td>Integrity</td>
+                            <td>Key-Pair Implementation for digital signature / Encryption</td>
+                        </tr>
+                        <tr>
+                            <td>Availabiliy</td>
+                            <td>Redundancy / several access methods / exposure</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col s12 m6 l6">
+                Als wichtigste Maßnahme zur Erhöhung kann in jedem Fall die in der DSGVO erwähnte Datenminimieren
+                gezählt
+                werden. Dort wo keine Informationen prozessiert werden, ensteht auch kein Risiko die
+                Informationsischerheit zu verletzen. Es sollte aus diesem Grund immer überlegt werden, welche
+                Informationen
+                notwendigerweise in welchen Systemen prozessiert werden müssen und welche nicht.
+            </div>
+            <div class="col s12 m6 l6 center">
+                <img alt="DSGVO" width="80%" class="z-depth-3"
+                    src="{{ "/assets/img/security/06.jpg" | relative_url }}" />
+            </div>
+        </div>
+
+        <div class="divider"></div>
+        <h5 id="blockchain" class="section scrollspy">Wie passen Blockchain und Informationssicherheit zusammen?</h5>
+
+        <div class="row">
+            <div class="col s12">
+                Aktuell wird zwischen 2 Typen von Blockchains unterschieden:
+            </div>
+            <div class="col s12 m6 l6 center">
+                public Blockchain
+            </div>
+            <div class="col s12 m6 l6 center">
+                permissioned Blockchain
+            </div>
+            <div class="col s12">
+                Im Rahmen der Verarbeitung von Informationen im Zusammenhang von Lieferketten und automatisierten
+                Prozessen
+                gewinnen permissioned Blockchains immer mehr an Bedeutung. Dies liegt daran, dass die Blockchain als
+                Technologie bereits Eigenschaften mitbringt, die die oben beschriebenen Schutzziele quasi „von selbst“
+                unterstützen. Diese Eigenschaften und die per Design unterstützten Schutziele sind
+                <span class="highlighted">farblich</span> hervorgehoben:
+            </div>
+            <div class="col s6 m3 l3 center">
+                <i class="mdi mdi-server-network large"></i><br />
+                Verteilt<br />
+                <span class="highlighted">Verfügbarkeit</span>
+            </div>
+            <div class="col s6 m3 l3 center">
+                <i class="mdi mdi-vanish large"></i><br />
+                Dezentral<br />
+                <span class="highlighted">Vertraulchkeit</span>
+            </div>
+            <div class="col s6 m3 l3 center">
+                <i class="mdi mdi-database-edit large"></i><br />
+                Unveränderbar<br />
+                <span class="highlighted">Integrität</span>
+            </div>
+            <div class="col s6 m3 l3 center">
+                <i class="mdi mdi-security-network large"></i><br />
+                Verschlüsselt<br />
+                <span class="highlighted">Vertraulichkeit</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                Je nach Auswahl der Technologie ist es aber wichtig auch die Schwachstellen der ausgewählten
+                Blockchaintechnologie zu berücksichtigen. Denn es gibt sie. Somit ergeben Sie große Chancen für
+                vertrauenswürdige Transparenz und Nachvollziehbarkeit in Informationsketten bei der Nutzung von
+                Blockchain als gemeinsame Platform, aber gleichzeitig auch neue Angriffsvektoren.
+                Die Herausforderung ist also eine gute Kombination von Informationssichereit in Form eines lebenden
+                Informationsischerheitsmanagementsystems in Anlehnung an z.B. ISO 27001, sowie ein ausgereifter IT
+                Servicebetrieb nach Frameworks wie zum Beispiel ITIL oder DevOps.
+            </div>
+        </div>
+
+        <div class="divider"></div>
+        <h5 id="vectors" class="section scrollspy">Interaktive Baumansicht typischer Cyber-Angriffe</h5>
+
+        <div id="treemap" class="tree-container"></div>
 
     </div>
-    <div class="col s12">
-        IT Sicherheit und Cyber-Sicherheit wird vom Bundesamt für Sicherheit in der Informationstechnik (BSI) wie folgt
-        definert:
-        <blockquote>
-            Cyber-Sicherheit befasst sich mit allen Aspekten der Sicherheit in der Informations- und
-            Kommunikationstechnik.
-            Das Aktionsfeld der Informationssicherheit wird dabei auf den gesamten Cyber-Raum ausgeweitet.
-            Dieser umfasst sämtliche mit dem Internet und vergleichbaren Netzen verbundene Informationstechnik und
-            schließt darauf basierende Kommunikation, Anwendungen, Prozesse und verarbeitete Informationen mit ein.
-            <p class="right">
-                zur Quelle:
-                <a target="_blank" href="https://www.bsi.bund.de/DE/Themen/Cyber-Sicherheit/cyber-sicherheit_node.html">
-                    <i class="mdi mdi-open-in-new tiny"></i></a>
-            </p>
-        </blockquote>
-        Informationssicherheit schließt also verschiedene Aspekte mit ein. Dazu gehören das große Feld der IT
-        Sicherheit, aber auch Schutz der Persönlichen Daten nach Datenschutzgrundverordnung, Schutz von Intellectual
-        Property (IP) und Patenten, aber den Schutz auch Unternehmens- Kunden und Produktdaten im weiteren Sinne. Um
-        all
-        diese Informationen zu schützen bedarf es zunächst einer klaren Kategorisierung der Handlungsfelder in denen
-        man
-        diese Informationssicherheit erreichen kann.
+    <div class="col hide-on-small-only m3 l2">
+        <ul class="table-of-contents pushpin">
+            <li><a href="#intro">Einführung</a></li>
+            <li><a href="#implementation">Umsetzung</a></li>
+            <li><a href="#blockchain">Blockchain</a></li>
+            <li><a href="#vectors">Angriffsvektoren</a></li>
+        </ul>
     </div>
 </div>
-
-<h6>1. Physische Sicherheit</h6>
-<div class="row">
-    <div class="col s12 m6 l7">
-        Hierzu gehören Handlungsfelder wie:
-        <ul class="collection">
-            <li class="collection-item">Zutrittskontrollen</li>
-            <li class="collection-item">Zutrittslimitierungen</li>
-            <li class="collection-item">Zutrittsdokumentationen</li>
-            <li class="collection-item">Alarm- und Überwachungssysteme</li>
-        </ul>
-    </div>
-    <div class="col s12 m6 l5 center">
-        <img alt="Physische Sicherheit" width="80%" class="z-depth-3"
-            src="{{ "/assets/img/security/01.jpg" | relative_url }}" />
-    </div>
-</div>
-
-<h6>2. IT Sicherheit (Technische Sicherheit)</h6>
-<div class="row">
-    <div class="col s12 m6 l5 center">
-        <img alt="IT Sicherheit" width="80%" class="z-depth-3"
-            src="{{ "/assets/img/security/02.jpg" | relative_url }}" />
-    </div>
-    <div class="col s12 m6 l7">
-        Unter diesem Punkt kann man recht allgemein die folgenden Aspekte nennen. Es ist wichtig festzuhalten,
-        dass der Einsatz der Technologien auf den zu schützenden Informationsverbund bzw. das IT System,
-        zugeschnitten sein sollten und den Schutzbedarfen der zu schützenden Informationen Rechnung tragen sollte:
-        <ul class="collection">
-            <li class="collection-item">Einsatz von Verschlüsselung</li>
-            <li class="collection-item">Einsatz von Firewalls und Antivirenlösungen</li>
-            <li class="collection-item">Einsatz von Intelligent Thread Detection Lösungen</li>
-            <li class="collection-item">Gut geführtes Asset- und Patchmanagement</li>
-            <li class="collection-item">Klares Management zu Nutzerrollen, deren Zugriffen, sowie die dazugehörige
-                Dokumentation</li>
-        </ul>
-    </div>
-</div>
-
-<h6>3. Organisatorische Sicherheit</h6>
-<div class="row">
-    <div class="col s12 m6 l6">
-        Dieser Punkt stellt wahrscheinlich die größte Herausforderung für die Sicherstellung von Informationssicherheit
-        dar, da er am abstraktesten ist und für Unternehmen breit ausgelegt werden kann. Unter Maßnahmen für die
-        angemessene Sicherstellung von Informationssicherheit können beispielsweise genannt werden:
-    </div>
-    <div class="col s12 m6 l6 center">
-        <img alt="Organisatorische Sicherheit" width="80%" class="z-depth-3"
-            src="{{ "/assets/img/security/03.jpg" | relative_url }}" />
-    </div>
-    <div class="col s12">
-        <ul class="collection">
-            <li class="collection-item">Klare Kommunikation und Vorleben des Themas Informationssicherheit durch das
-                Management auch durch z.B. öffentlich einsehbaren Verhaltenskodex / Code of Conduct oder andere
-                Dokumente, die im Unternehmen öffentlich zugänglich sind und verdeutlichen, dass der Unternehmensführung
-                das Thema wichtig ist.</li>
-            <li class="collection-item">Clean Desk Policy </li>
-            <li class="collection-item">Entwicklung und Publikation von eigenen, für das Unternehmen und
-                angeschlossene Partner verbindlichen geltende Richtlinien zur Einhaltung der Informationssicherheit
-                (z.B. SOPs oder IT Security Regulations)</li>
-            <li class="collection-item">Die klare Aufforderung zur Einhaltung von, sowie auch die Publikation von
-                Sanktionen bei Verstöße gegen legale, ethische und intern geltende Vorgaben (z.B DSGVO oder interne
-                Regelungen)</li>
-            <li class="collection-item">Betrieb und Aufrechterhaltung eines Information Security Managment System
-                (ISMS) sowie ggf. die Zertifzierung selbigens (e.g. ISO27001 or TISAX Certification)</li>
-            <li class="collection-item">Ernennung von Ansprechpartnern im Unternehmen ( z.B.
-                Informationssicherheitsbeauftragter / CISO o.ä.)</li>
-            <li class="collection-item">und vieles mehr...</li>
-        </ul>
-    </div>
-</div>
-
-<div class="divider"></div>
-
-<h5>Wie wird Informationssicherheit genau realisiert?</h5>
-
-<h6>1. Schutzziele definieren</h6>
-<div class="row">
-    <div class="col s12 m6 l6">
-        Wie in der Definition erwähnt ist es wichtig das Schutzziel der zu schützenden Informationen zu definieren. Die
-        folgende Pyramide zeigt die wichtigsten drei Schutzziele. Es gibt auch erweiterte Schutzziele, die aber im
-        Regelfall
-        eines der Hauptschutzziele unterstützen. Man spricht hier auch von den CIA Zielen:
-        <ul class="collection">
-            <li class="collection-item">Confidentiality (Vertraulichkeit)</li>
-            <li class="collection-item">Integrity (Unveränderbarkeit / Manipulationssicherheit)</li>
-            <li class="collection-item">Availability (Verfügbarkeit)</li>
-        </ul>
-    </div>
-    <div class="col s12 m6 l6 center">
-        <img alt="Physische Sicherheit" width="80%" class="z-depth-3"
-            src="{{ "/assets/img/security/03.jpg" | relative_url }}" />
-    </div>
-</div>
-
-<h6>2. Schutzbedarf festlegen</h6>
-
-<h6>3. Maßnahmen zum Sicherstellung des Schutzbedarfes</h6>
-
-
-<div class="divider"></div>
-
-<h5>Interaktive Baumansicht typischer Cyber-Angriffe</h5>
-
-<div id="treemap" class="tree-container"></div>
 
 <!-- Modal Structure -->
+
 <div id="av-modal" class="modal">
     <div id="av-content" class="modal-content">
     </div>
@@ -162,7 +318,5 @@ app: security
 </div>
 
 <div hidden>
-
     {% include attack-vectors.html %}
-
 </div>
