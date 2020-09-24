@@ -16,6 +16,12 @@
     // -- start procedure
 
     $(document).ready(function () {
+        $('.pushpin').pushpin({
+            top: 575,
+            bottom: $(document). height() - 500,
+            offset: 75
+          });
+
         $('.modal').modal();
 
         initSvg();
