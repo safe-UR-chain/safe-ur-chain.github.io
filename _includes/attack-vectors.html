@@ -1,18 +1,624 @@
-<div id="node-blockchain">
-    <h5> Cyber-Angriffe gegen Blockchain-Technologien</h5>
+<!-- 
+
+<div id="link">
+    <h5>title</h5>
     <p style="text-align:justify">
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-        invidunt ut labore et
-        dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-        consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-        diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-        takimata sanctus est Lorem ipsum dolor sit amet.
+        text
     </p>
     <div class="divider"></div>
     <h6><i class="mdi mdi-web left"></i>weiterführende Links</h6>
     <ul>
-        <li><a href="https://www.w3schools.com/" target="_blank">www.w3schools.com</a></li>
-        <li><a href="https://www.example.net/" target="_blank">www.example.net</a></li>
+        <li><a href="link"
+                target="_blank">link text</a></li>
     </ul>
+</div>
+
+ -->
+
+<!-- Hardware -->
+
+<div id="usb-drop">
+    <h5>USB Drop</h5>
+    <p style="text-align:justify">
+        Ein USB-Drop-Angriff tritt auf, wenn ein Angreifer ein USB-Gerät strategisch an einem Ort "vermeintlich vergisst
+        oder verliert", welches möglicherweise schädlichen Code enthält. Die Intention hierbei ist, dass ein Opfer der
+        Zielorganisation das Gerät an einen Organisationscomputer anschließt. Diese Art von Angriff verwendet Social
+        Engineering. Im Folgenden sind die Arten von USB-Drop-Attacken aufgeführt: HID-Spoofing (USB Human Interface
+        Device), schädliche Dateien / Codes, Social Engineering-Links, USB-Kill, Zero Day
+    </p>
+    <div class="divider"></div>
+</div>
+
+<div id="data-corruption">
+    <h5>Data Corruption Attack</h5>
+    <p style="text-align:justify">
+        Aufgrund des Durchlaufs von Blockchain-Netzwerken über Cloud-Dienste oder Netzwerke von Drittanbietern hinweg,
+        können die vorhandenen Überprüfungs- und Datenintegritätsschutzmaßnahmen die Datenbeschädigung im
+        Blockchain-Netzwerk zum Zeitpunkt des Auftretens der Beschädigung selbst nicht identifizieren. Dieser Fehler
+        wird von Angreifern ausgenutzt, um schädliche Daten in das Blockchain-Netzwerk einzuführen.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<div id="data-insertion">
+    <h5>Data Insertion Attack</h5>
+    <p style="text-align:justify">
+        Die Data Insertion Attack ist die Fälschung von Datenwerten innerhalb des Blockchain-Netzwerks, um dem Angreifer
+        einen ungebührlichen Vorteil zu verschaffen oder um die Sicherheitsmaßnahmen des Netzwerks zu reduzieren. Eines
+        der Hauptergebnisse der Dateneinfügung ist die Überfüllung des
+        Node-Ledgers, die das Potential hat, den betroffenen Knoten zu isolieren, der dann dazu verwendet werden kann,
+        bösartige Daten in Blockchain-Transaktionen einzufügen.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<!-- Hosting -->
+
+<div id="dos-attack">
+    <h5>DoS Attack</h5>
+    <p style="text-align:justify">
+        Ein DoS-Angriff (oder Denial-of-Service-Angriff) ist eine Methode, mit der der Zugriff legitimer Benutzer auf
+        ein Zielnetzwerk oder eine Webressource unterbrochen wird. In der Regel wird dies erreicht, indem das Ziel
+        (häufig ein Webserver) mit massivem Datenverkehr überlastet wird oder indem böswillige Anforderungen gesendet
+        werden, die zu Fehlfunktionen oder zum Absturz der Zielressource führen.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<!-- Network -->
+
+<div id="dns-hijacking">
+    <h5>DNS Hijacking</h5>
+    <p style="text-align:justify">
+        Die DNS-Auflösung ist unter anderem anfällig für Man-in-the-Middle-Angriffe (auf der Resolver-Seite),
+        Cache-Vergiftungen und veraltete Datensätze. Für diesen Angriff kann der Angreifer entweder eine ungültige Liste
+        von Seeder-Knoten in die Open-Source-Blockchain-Software einfügen oder den DNS-Cache am Resolver mit falschen
+        Einträgen vergiften. Infolgedessen kann der Gegner möglicherweise Blockchain-Peers von dem "echten" Netzwerk
+        isolieren und sie zu einem gefälschten Netzwerk führen, bzw. dafür zu sorgen, dass sie nicht mehr im "echten
+        Netzwerk" teilnehmen.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<div id="bgp-hijacking">
+    <h5>BGP Hijacking</h5>
+    <p style="text-align:justify">
+        Die räumliche Konzentration von Knoten innerhalb eines Autonomen Systems (AS) oder bei einem Internet Service
+        Provider (ISP) macht sie anfällig für Routing-Angriffe wie BGP-Hijacking. Ein gegnerisches AS kann den
+        Datenverkehr für einen Ziel-AS entführen, welches einen Großteil der Blockchain-Knoten hostet. Dies kann den
+        Fluss wertvoller Informationen, einschließlich Transaktionen und Blöcke, zu den Knoten, die vom Ziel-AS gehostet
+        werden, stören. Wenn die Opferknoten Miner oder Mining-Pools sind, kann der Angreifer die Hash-Rate der
+        Blockchain erheblich reduzieren und dadurch die Systemaktivitäten beeinflussen.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<div id="eavesdropping">
+    <h5>Eavesdropping Attack</h5>
+    <p style="text-align:justify">
+        Beim Eavesdropping (Lauschangriff / Abhörattacke) handelt es sich um den Akt des Abhörens des
+        Kommunikationskanals, der zwischen zwei autorisierten Einheiten eingerichtet wurde, die am Blockchain-Netzwerk
+        teilnehmen. Ein Traffic Lauscher fängt die innerhalb eines Blockchain-Netzwerks übertragenen Daten passiv ab,
+        indem er Code auf einen Server lädt oder Daten von teilnehmenden Knoten abhört und eine nicht autorisierte Kopie
+        der Nachrichten anfertigt. Der Angreifer kann die illegal gesammelten Informationen nutzen, um an gültige
+        Zugangsdaten eines autorisierten Benutzers zu gelangen, um sich als solcher auszugeben und einen Angriff zu
+        starten.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<!-- Operating System -->
+
+<div id="privilege-excalation">
+    <h5>Role-based Access Control Privilege Escalation</h5>
+    <p style="text-align:justify">
+        Bei diesem Angriff wird eine Schwachstelle eines Betriebssytems oder einer Applikation ausgenutzt, um andere
+        Berechtigungen als ursprünglich für diesen User vorgesehene zu erhalten. Man unterscheidet zwischen
+        <b>"horizontal priviledge escalation"</b> und <b>"vertical priviledge escalation"</b><br><br> <b>"horizontal
+            priviledge
+            escalation"</b> ist gemeint, wenn ein User die Berechtigungen eines anderen Users der gleichen
+        Berechtigungsstufe
+        erlangt, die er normalerweise nicht hätte.<br><br>**"vertical priviledge escalation"</b> ist gemeint, wen ein
+        User
+        mit niedrigeren Berechtigungen, solche Berechtigungen erlangt, die es ermöglichen Aktionen auszuführen, für die
+        normalerweise höhere Berechtigungen, als die eigenen notwendig sind.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<div id="broken-object">
+    <h5>Broken Object Level Authorization</h5>
+    <p style="text-align:justify">
+        Bei diesem Angriff wird eine valide ID von einem echten Object (Device / User / Service etc.) missbraucht. Diese
+        wird zur validen Authentifizierung an einer API verwendet. Das Ziel hierbei ist, einen bösartigen Payload über
+        diese API auszuliefern, der ggf. Schadcode enthält bzw. Zugriff auf Ressourcen oder Infrastruktur, welche hinter
+        der API liegen zu erlangen. Angreifer können API Endpunkte ausnutzen, die anfällig für diese Form von Angriff
+        sind.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<div id="virtual-disk-exploit">
+    <h5>Virtual Disk Exploit</h5>
+    <p style="text-align:justify">
+        Die Portabilität virtueller Festplatten bedeutet, dass ein Eindringling, wenn er Zugriff auf das Image einer
+        virtuellen Festplatte erhält (z.B. *.vmdk oder *.vhd Dateien) , das gesamte System stehlen kann, einschließlich
+        der Kennwörter, Verschlüsselungs- und Entschlüsselungsdatenbank, Sicherheitsrichtlinien und Daten. Wenn ein
+        böswilliger Insider in einer Blockchain-Umgebung Zugriff auf den Stammspeicher erhalten könnte, in dem die
+        Autorisierungs- und Transaktionsdateien gespeichert sind, und Kopien dieser Images erstellen könnte, würde er
+        effektiv die Kontrolle über die Blockchain in ihrer Gesamtheit stehlen bzw. im Nachgang erhalten können.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<div id="timestamp-based-attack">
+    <h5>Timestamp-based Attack</h5>
+    <p style="text-align:justify">
+        Um einen Vorteil zu erzielen, kann ein Miner den Zeitstempel um einige Sekunden neu anordnen. Dieser Angriff
+        bewirkt eine verzerrte Wahrnehmung des Zeitflusses. Dadurch kann das Blockchain-Netzwerk von der
+        synchronisierten globalen Uhr getrennt werden. Dies gibt einem Miner mehr Gelegenheit zur Ausnutzung. Daher kann
+        das Ergebnis des Zufallszahlengenerators geändert werden, um Vorteile zu erzielen. Dies könnte u-a. zu einer
+        doppelten Nutzung einer Transaktion führen.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<div id="brute-force-attack">
+    <h5>Brute Force Attack</h5>
+    <p style="text-align:justify">
+        Während des Brute-Force-Angriffs probiert der Eindringling alle möglichen Schlüssel (oder Passwörter) und prüft,
+        welcher von ihnen den richtigen Klartext zurückgibt. Ein Brute-Force-Angriff wird auch als umfassende
+        Schlüsselsuche bezeichnet. Die zum Aufbrechen einer Chiffre erforderliche Zeit ist proportional zur Größe des
+        geheimen Schlüssels. Die maximale Anzahl von Versuchen entspricht 2 mal der "Schlüsselgröße", wobei
+        "Schlüsselgröße" die
+        Anzahl der Bits im Schlüssel ist. Heutzutage ist es möglich, eine Chiffre mit einem etwa 60 Bit langen
+        Schlüssel zu brechen, indem der Brute-Force-Angriff in weniger als einem Tag ausgeführt wird.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<!-- Blockchain -->
+
+<div id="sybil-attack">
+    <h5>Sybil Attack</h5>
+    <p style="text-align:justify">
+        Bei einem Sybil-Angriff wird z.B. ein Knoten imitiert und den "Ruf" dieses Knoten im eigenen Interesse zu
+        schädigen. Dies kann z.B. über gefälschte Transaktionen im Namen dieses Knotens geschehen, bzw. über die
+        Veröffentlichung von negativen (Falsch-) informationen über diesen Knoten. Bei der erweiterten Variante der
+        Sybil Attack untergräbt der Angreifer das Reputationssystem eines Netzwerkdienstes, indem er eine große Anzahl
+        pseudonymer Identitäten erstellt und diese verwendet, um einen unverhältnismäßig großen Einfluss zu erlangen.
+        Ziele dieser Attacke sind: Verbreitung der "eigenen Wahrheit", Erlangung des mehrheitlichen Einflusses in
+        Netzwerken um ungewünschte Transaktionen zu verhindern, bzw. nachträglich mittels der 51% Attacke nach eigenem
+        Interesse zu verändern. Der Name leitet sich von "Sybil Isabel Dorsett" ab, einer Frau aus dem frühen 20.
+        Jahrhundert mit 16 unterschiedlichen Persönlichkeiten.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<div id="fifty-one-attack">
+    <h5>51% Attack</h5>
+    <p style="text-align:justify">
+        Ein Mehrheitsangriff ist möglich, wenn ein Hacker die Kontrolle über 51% der Rechenpower in einem
+        Blockchainnetzwerk und damit der Hash-Rate erhält und einen alternativen Zweig (Branch) der Blockchain erstellt,
+        die letztendlich die "echte" Blockchain dominiert und damit die Vertrauenswürdigkeit der in ihr gespeicherten
+        Transaktionen schädigt. Mit der Mehrheit der Hash-Rate (auch Mining-Power) des Netzwerks können die Angreifer
+        z.B. die Reihenfolge von Blöcken oder Transaktionen ändern. Damit würde ein sog. "double-spent" möglich gemacht
+        werden.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<div id="proof-of-work-attack">
+    <h5>Proof of Work based Attack</h5>
+    <p style="text-align:justify">
+        Der Balance-Angriff ist eine neuartige Form von Angriff, auf den insbesondere Blockchains mit dem Knonsens Proof
+        of Work (PoW), wie z.B. Ethereum oder Bitcoin anfällig sind. Seine Neuheit besteht darin, Untergruppen von
+        Blockerstellern (Minern) mit gleichwertiger Rechenleistung (Miningpower) zu identifizieren und Nachrichten
+        zwischen ihnen zu verzögern, anstatt in einen Wettlauf um das schnellste Erstellen neuer Blöcke einzutreten. Der
+        Balance-Angriff zeigt eine grundlegende Einschränkung der wichtigsten Proof-of-Work-Systeme, da die
+        Unveränderbarkeit unterminiert wird. Dies könnte z.B. dazu führen, dass Transaktionen länger benötigen, bis sie
+        sich über das gesamte System manifestiert haben.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<div id="cryptojacking">
+    <h5>Cryptojacking</h5>
+    <p style="text-align:justify">
+        Cryptojacking ist eine Form eines Angriffs, der auf web- und cloudbasierte Dienste gestartet wird, um PoW für
+        Blockchain-basierte Kryptowährungen ohne Zustimmung illegal auszuführen. Es ist die unbefugte Verwendung eines
+        fremden Computers, um am PoW teilzunehmen und die Vergütung für erfolgreiche Blöcke zu erhalten. Die neueste und
+        am weitesten verbreitete Form des Cryptojacking ist das In-Browser-Cryptojacking, das Websites in Mining-Pools
+        verwandelt.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<div id="quantum-computing">
+    <h5>Quantum Computing</h5>
+    <p style="text-align:justify">
+        Unter Verwendung des Grover-Algorithmus kann ein Quantencomputer den Hashcash-PoW ausführen, indem er
+        quadratisch weniger Hashes ausführen muss, als dies bei einem klassischen Computer der Fall ist.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<div id="consensus-delay">
+    <h5>Consensus Delay</h5>
+    <p style="text-align:justify">
+        Bei diesem Angriff kann ein Angreifer falsche Blöcke einfügen, um die Latenz zu erhöhen oder zu verhindern, dass
+        Peers einen Konsens über den Status der Blockchain erzielen. Die anderen Verzögerungen umfassen Übertragungs-
+        und Verbreitungsverzögerungen (Propagation Delay) von Nachrichten und Blöcken. Übertragungsverzögerungen hängen
+        von der Größe des Blocks und der Nachrichten ab, während die propagation delays von der Bandbreite der
+        Verbindung zwischen den Knoten abhängen.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<div id="eclipse-attack">
+    <h5>Eclipse Attack</h5>
+    <p style="text-align:justify">
+        Eine Gruppe bösartiger Knoten isoliert ihre Nachbarknoten. Dies geschieht indem zunächst eine die ID des
+        Zielknotens ermittelt wird. Dies kann ein unique identifier aber auch z.B. die IP Adresse sein. Am Anschluss
+        würden propagierte Nachrichten des Zielknotens durch die bösartigen Knoten nicht weiter im Netzwerk verbreitet,
+        was den Zielknoten schlicht isoliert. Im Bitcoinnetzwerk kann ein Knoten beispielsweise eine aktive Verbindung
+        zu allen anderen Knoten im Netzwerk herstellen und einen Knotencluster bilden. Im Knotencluster kennt jeder Peer
+        die IP-Adresse aller anderen Peers. Mit ausreichend bösartigen Knoten in einem Cluster kann der Angreifer
+        ehrliche Knoten isolieren und ihre Blockchain Sicht beeinflussen. Er kann den eingehenden und ausgehenden
+        Verkehr kontrollieren und sie mit gefälschten Informationen über Blockchain und Transaktionen versorgen, bzw.
+        über diesen Weg die Zielknoten an der Teilnahme des Konsensus hindern.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<div id="block-withholding">
+    <h5>Block Withholding</h5>
+    <p style="text-align:justify">
+        Der Block-Withholding-Angriff (übersetzt "Blockzurückhaltung") wird gegen dezentrale Mining-Pools gestartet, um
+        dem Poolbetreiber Schaden zuzufügen, indem ein gültiger PoW zurückgehalten wird. Ein Mining-Pool ist ein
+        Zusammenschluss mehrerer Miner um ihre Rechenleistung zu bündeln, um damit die Wahrscheinlichkeit zu erhöhen
+        einen gültigen Block zu erstellen, und dafür die Vergütung erhalten. Ohne Kenntnis über einen kompromittierten
+        Miner im Pool, verschwenden die übrigen Miner im Pool ihre Ressourcen, um die richtige Nonce zu finden.
+        Eventuell wird das Rennen um den korrekten Hash dabei verloren. Der Angreifer unterbricht die Kommunikation
+        zwischen korrekten Untergruppen mit gleichwertiger Mining-Leistung. Er gibt lediglich Transaktionen in einer
+        Untergruppe (Gruppe A) aus. Der Angreifer erstellt dann ausreichend viele Blöcke in einer anderen Untergruppe
+        (Gruppe B), um mit hoher Wahrscheinlichkeit sicherzustellen, dass dieser "falsche Teilbaum" der Blockchain einer
+        anderen Untergruppe (z.B. Gruppe A) nach Veröffentlichung weitergeführt wird. Obwohl Transaktionen
+        festgeschrieben sind, kann der Angreifer die Blöcke, die in z.B. Gruppe B gemined wurden, und jetzt von mehr
+        Knoten fortgeführt werden, inhaltlich beeinflussen. Damit würde ein neuer Branch mit falschen aber dennoch
+        gültigen Transaktionen propagiert und manifestiert werden.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<div id="empty-blocks">
+    <h5>Empty Blocks</h5>
+    <p style="text-align:justify">
+        Leere Blöcke werden oft als verschwendete Ressourcen angesehen, da diese Blöcke mehrere Transaktionen enthalten
+        könnten. Durch Generieren leerer Blöcke und Ignorieren anderer Blöcke kann ein verteilter
+        Denial-of-Service-Angriff eingeleitet werden. Wenn die Anzahl der leeren Blöcke, diejenige Anzahl der Blöcke mit
+        Transaktionen überschreitet, könnte ein Mehrheitsangriff auftreten, da sich die Kette der leeren Blöcke
+        schneller als jede andere Kette verlängert und sie deshalb trotz ihres leeren Inhalts zur Hauptkette macht. Ein
+        Angreifer, der die Kontrolle über solche leeren Blöcke hat, könnte auch andere Angriffe ausführen, die die
+        Sicherheitseigenschaften des Systems verletzen.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<div id="long-range-attack">
+    <h5>Long Range Attack / Precomputing Attack</h5>
+    <p style="text-align:justify">
+        Ein Long Range-Angriff ist ein Szenario, in dem ein Gegner ausgehend vom Genesis-Block einen Branch in der
+        Blockchain erstellt und die Hauptkette überholt. Dieser Zweig kann verschiedene Transaktionen und Blöcke
+        enthalten und wird auch als Angriff mit alternativem Verlauf oder Verlaufsrevision bezeichnet. Der Angreifer
+        kehrt zum Genesis-Block zurück und teilt die Blockchain. Der neue Zweig wird mit einer völlig (oder teilweise)
+        anderen Geschichte der Hauptkette gefüllt. Sobald der neu gefertigte Zweig länger als die Hauptkette wird,
+        besteht das Risiko der Übernahme aller Knoten dieser Variante als die "Hauptchain".
+    </p>
+    <div class="divider"></div>
+</div>
+
+<div id="bft-attack">
+    <h5>Byzantine Fault Tolerance (BFT) based Attack</h5>
+    <p style="text-align:justify">
+        Ein BFT-basierter Angriff verwendet einen Tyrannenknoten, der lügt, oder andere Knoten des Netzwerkes
+        absichtlich in die Irre führt. Dies gilt auch für Knoten die am Konsensus beteiligt sind. Aus diesem Grund
+        sollte das Protokoll über die unrechtmäßige Intervention der böswilligen Knoten hinwegsetzen und trotz dieser
+        Knoten (byzantinischen Generäle) einwandfrei funktionieren. Die byzantinische Fehlertoleranz (BFT) ist die
+        Eigenschaft eines Systems, den Fehlern die sich aus dem Problem der byzantinischen Generäle ergibt zu
+        widerstehen. Dies bedeutet, dass ein BFT-System auch dann weiter funktionieren kann, wenn einige der Knoten
+        ausfallen oder böswillig handeln.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<div id="blockchain-ingestion">
+    <h5>Blockchain Ingestion</h5>
+    <p style="text-align:justify">
+        Öffentliche Blockchains haben eine schwache Auffassung von Anonymität und bieten der Öffentlichkeit einen
+        offenen Datenzugriff. Daher kann die Analyse der öffentlichen Blockchain einem Gegner nützliche Informationen
+        liefern. Dieser Prozess wird als Blockchain-Aufnahme (eng. ingestion) bezeichnet und ist für die
+        Blockchain-Anwendung oder ihre Benutzer möglicherweise nicht wünschenswert.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<div id="blacklisting">
+    <h5>Blacklisting</h5>
+    <p style="text-align:justify">
+        Blacklisting ist eine Form des Angriffs auf eine einzelne Entität. Das Blacklisting kann durch einen
+        <b>"punitive
+            fork"</b> oder durch einen <b>"feather fork"</b> erreicht werden. <br>Beim <b>punitive fork</b> sind dafür
+        51 % der
+        Mining Power und eine Initiierung zur Anforderung des Ausschlusses bestimmter Blöcke aus dem Pool notwendig.
+        Sobald einer der ausgeschlossenen Blöcke im Pool erscheint, wird ein Fork eingeleitet.<br> Beim <b>feather
+            fork</b>
+        wird eine 100 %-ige Kontrolle des Blockchain-Pools benötigt, wodurch alle anderen Blöcke außer den eigenen
+        ausgeschlossen werden. Angesichts der Tatsache, dass eine 100 %-ige Kontrolle des Blockchain-Pools schwierig zu
+        erreichen ist, ist das Maximum, das ein Angreifer auf diese Weise erreichen kann, eine Menge Verzögerungen und
+        Unannehmlichkeiten.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<div id="vector76-attack">
+    <h5>Vector76 Attack</h5>
+    <p style="text-align:justify">
+        Eine Kombination aus <b>Race Attack</b> und <b>Finney Attacks</b> wird auch als Ein-Bestätigungs-Angriff
+        bezeichnet,
+        sodass eine Transaktion mit nur einer Bestätigung immer noch rückgängig gemacht werden kann. In diesem Fall
+        erstellt ein böswilliger Miner zwei Knoten, von denen einer nur mit dem Austauschknoten und der Austauschknoten
+        mit gut verbundenen Peers im Blockchain-Netzwerk verbunden ist. Danach erstellt der Miner zwei Transaktionen,
+        eine mit hohem und eine mit niedrigem Wert. Anschließend mint der Angreifer einen Block mit einer hochwertigen
+        Transaktion, propagiert diesen and den Austauschknoten. Dieser hält ihn zurück. Nach einer Blockankündigung
+        sendet er den vorgefertigten Block schnell direkt an einen exchange service. Dieser vorab erstellte Block wird
+        somit als Hauptkette betrachtet und diese Transaktion bestätigt. Daher nutzt dieser Angriff die Tatsache aus,
+        dass ein Teil des Netzwerks die Transaktion sieht, die der Angreifer in einen Block aufgenommen hat, während der
+        andere Teil des Netzwerks diese Transaktion nicht sieht. Nachdem der exchange service die Transaktion mit hohem
+        Wert bestätigt hat, sendet der Angreifer eine Transaktion mit niedrigem Wert an das Hauptnetzwerk, das die
+        Transaktion mit hohem Wert endgültig ablehnt. Infolgedessen wird der Betrag der hochwertigen Transaktion auf dem
+        Konto des Angreifers eingezahlt. Obwohl bei diesem Angriff eine hohe Erfolgschance besteht, ist dies nicht
+        üblich, da ein gehostetes E-Wallet erforderlich ist, welches die Zahlung nach nur einer Bestätigung akzeptiert,
+        und ein Knoten mit einer eingehenden Transaktion.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<div id="sour-milk-attack">
+    <h5>Sour Milk Attack</h5>
+    <p style="text-align:justify">
+        Es ist ein Angriff, bei dem Basisprüfer ihre Kollegen dazu bringen, an ehrlichen Kollegen zu zweifeln, indem sie
+        gleichzeitig echte und betrügerische Blöcke für Kollegen veröffentlichen. Gleichzeitig koordinieren diese
+        Basisknoten mit anderen böswilligen Peers, um dasselbe zu tun, und beeinträchtigen die Fähigkeit ehrlicher
+        Peers, zwischen gültigen und ungültigen Blöcken zu unterscheiden.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<div id="nothing-at-stake">
+    <h5>Nothing at Stake</h5>
+    <p style="text-align:justify">
+        Nothing-at-stake ist ein theoretisches Sicherheitsproblem beim Proof-of-stake, bei dem die Validatoren einen
+        finanziellen Anreiz haben, an jedem Fork der Blockchain, der stattfindet, zu minen, was den Konsens stört und
+        das System potenziell anfälliger für Angriffe macht.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<div id="finney-attack">
+    <h5>Finney Attack</h5>
+    <p style="text-align:justify">
+        Die Finney-Attack ist eine betrügerischer double-spent, der die Beteiligung eines Miners erfordert, sobald ein
+        Block erstellt wurde. Das Risiko einer Finney-Attack lässt sich unabhängig von den Vorsichtsmaßnahmen des
+        Verkäufers / Transaktionspartners nicht ausschließen, aber ein gewisses Maß an Hash-Power des Miners ist
+        erforderlich. Außerdem muss eine bestimmte Abfolge von Ereignissen eintreten. Diese wird möglich, wenn eine
+        Transaktion zu einem Block vorgefertigt wird und eine identische Transaktion erstellt wird, bevor dieser
+        vorgefertigte Block an das Netzwerk übertragen wird, wodurch die zweite identische Transaktion ungültig wird.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<div id="miner-collusion">
+    <h5>Miner Collusion</h5>
+    <p style="text-align:justify">
+        Es ist für eine signifikante Anzahl von Teilnehmern (oder alle) des Blockchainnetzwerkes möglich, sich zu
+        verbünden, um über einen Großteil der Mining- und Transaktionleistung der Blockchain zu verfügen. Parteien in
+        einem Konsortium können sich verbünden, um eine Transaktion zum Nutzen aller rückgängig zu machen. Außerdem
+        könnten sie einen oder mehrere Teilnehmer "blacklisten" um bestimmte Transaktionen oder sogar alle Transaktionen
+        zu verbieten. In dem Maße, wie es einige positive Anwendungsfälle für das Verbünden geben mag, haben die
+        negativen Auswirkungen die kostspieligere Auswirkung.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<div id="stake-grinding">
+    <h5>Stake Grinding</h5>
+    <p style="text-align:justify">
+        Stake Grinding ist ein Angriff, bei der ein Validator eine Berechnung durchführt oder einen anderen Schritt
+        unternimmt, um die Zufälligkeit zu seinen Gunsten zu beeinflussen.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<div id="stake-amp">
+    <h5>Stake Amplification</h5>
+    <p style="text-align:justify">
+        Stake-Amplification (Stake-Vergrößerung) funktioniert, durch eine große Anzahl von Selbstausgaben mit gleicher
+        Menge an Coins.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<div id="fake-stake-attack">
+    <h5>Fake Stake Attack</h5>
+    <p style="text-align:justify">
+        Mit Fake Stake Attack kann ein Angreifer eine Verbindung herstellen und einen Opferknoten zum Absturz bringen,
+        indem er ungültige Blöcke sendet, die Speicherplatz beanspruchen. Der Angreifer verwendet keinen oder nur einen
+        sehr geringen Einsatz, um einen betroffenen Knoten zum Absturz zu bringen. Es gibt zwei Varianten dieses
+        Angriffs
+        (No Stake und Spent Stake).
+    </p>
+    <div class="divider"></div>
+</div>
+
+<div id="trans-ma-attack">
+    <h5>Transaction Malleability Attack</h5>
+    <p style="text-align:justify">
+        Die Transaction Malleability Attack soll das Opfer dazu verleiten, zweimal zu zahlen. Im Blockchain-Netzwerk hat
+        jede Transaktion einen Hash, der eine Transaktions-ID ist. Wenn es Angreifern gelingt, die Transaktions-ID zu
+        ändern, können sie versuchen, eine Transaktion mit einem geänderten Hash an das Netzwerk zu senden und vor der
+        ursprünglichen Transaktion bestätigen zu lassen. Der Absender wird glauben, dass seine erste Transaktion
+        fehlgeschlagen ist, während das Geld weiterhin von seinem Konto abgebucht wird. Wenn der Absender die
+        Transaktion wiederholt, gibt er den gleichen Betrag zweimal aus. Dieser Hack ist erfolgreich, sobald die beiden
+        Transaktionen von Minern bestätigt wurden.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<div id="front-running">
+    <h5>Front Running</h5>
+    <p style="text-align:justify">
+        Dabei handelt es sich um eine Vorgehensweise, bei der eine Entität von einem vorherigen Zugang zu privilegierten
+        Marktinformationen über bevorstehende Transaktionen und Geschäfte profitiert, was in der Regel auf eine
+        privilegierte Position bei der Übermittlung dieser Informationen zurückzuführen ist und sowohl auf finanzielle
+        als auch auf nicht finanzielle Systeme anwendbar ist. Beim Front-Running sieht eine Person eine konkrete
+        Transaktion, die zur Ausführung vorgesehen ist, und reagiert darauf, bevor sie tatsächlich ausgeführt wird.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<div id="length-expansion-attack">
+    <h5>Length Expansion Attack</h5>
+    <p style="text-align:justify">
+        Eine Length Expansion Attack ist ein Angriffstyp, bei dem ein Angreifer den Hash und die Länge einer Nachricht
+        verwenden kann, um den Hash für eine vom Angreifer kontrollierte zweite Nachricht zu berechnen, ohne den Inhalt
+        der Nachricht kennen zu müssen.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<!-- Business Application -->
+
+<div id="phishing">
+    <h5>Phishing</h5>
+    <p style="text-align:justify">
+        Phishing-Nachrichten werden gesendet, um vertrauliche Informationen zu erhalten und / oder Zugang zu
+        Opfersystemen zu erhalten. Alle Formen von Phishing werden elektronisch über Social Engineering bereitgestellt.
+        Phishing-E-Mails enthalten böswillige Anhänge oder Links, um in der Regel bösartigen Code auf Opfersystemen
+        auszuführen oder Anmeldeinformationen für die Verwendung gültiger Konten zu sammeln. Phishing kann auch über
+        Dienste von Drittanbietern wie Social Media-Plattformen durchgeführt werden.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<div id="stegano-attack">
+    <h5>Steganography Attack</h5>
+    <p style="text-align:justify">
+        Steganographie ist eine Praxis, bei der Daten in einem verborgenen Format zu versenden, so dass die Tatsache des
+        Versendens der Daten selbst verschleiert wird. Ein Angreifer, der die Kontrolle über einen Knoten innerhalb des
+        Blockchain-Netzwerks übernommen hat, kann während des Minen eines Blocks geheime Daten oder bösartigen Code in
+        die Transaktionen innerhalb eines Blocks einbetten. Dieser infizierte Block wird dann an andere Knoten innerhalb
+        des Blockchain-Netzwerks gesendet, auf denen die bösartigen Daten oder der bösartige Code ausgeführt wird,
+        sobald sie auf den Block zugreifen.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<!-- Governance Compliance -->
+
+<div id="dumpster">
+    <h5>Dumpster Diving</h5>
+    <p style="text-align:justify">
+        Müllcontainertauchen bezieht sich auf die Erkundung des Papierkorbs eines Systems oder auch den physischen
+        Papierkorb / Müll einer Organisation, um Details zu finden, damit ein Hacker einen erfolgreichen Angriff
+        ausführen kann.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<!-- User -->
+
+<div id="tampering">
+    <h5>Tampering Attack</h5>
+    <p style="text-align:justify">
+        Bei dieser Angriffsmethode werden Änderungen (Zerstörung, Löschung, Manipulation, Bearbeitung) an Daten /
+        Informationen / Einstellungen / Berechtigungen (Paramater) etc. (teilweise auch mit gestohlenen Credentials) zum
+        Vorteil des Angreifers vorgenommen. Dies dient z.B der Erlangung von Schreibberechtigungen.
+    </p>
+    <div class="divider"></div>
+</div>
+
+
+<!-- Sonstigesm -->
+
+<div id="over-underflows">
+    <h5>Overflows/Underflows</h5>
+    <p style="text-align:justify">
+        Ein Überlauf tritt auf, wenn eine Zahl über ihren Maximalwert hinaus erhöht (inkrementiert) wird. Ein Überlauf
+        tritt nur bei bestimmten Transaktionen mit speziellen Eingabedaten und Nachrichtenwerten auf. Ein Unterlauf
+        tritt auf, wenn eine Zahl unter ihren Minimalwert verkleinert (dekrementiert) wird.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<div id="accumulation">
+    <h5>Accumulation Attack</h5>
+    <p style="text-align:justify">
+        Bei diesem Angriff wartet der Angreifer, bis seine Münzen genug Münzalter angesammelt haben, um den Algorithmus
+        zum Starten von doppelten Ausgaben durch Initiieren einer Gabelung auszunutzen.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<div id="short-address">
+    <h5>Short Address Attack</h5>
+    <p style="text-align:justify">
+        Eine Short Address Attack liegt vor, wenn ein Smart Contract weniger Daten erhält als erwartet, und Solidity
+        (JavaScript basierende Programmiersprache für die Entwicklung von Smart Contracts in Ethereum) die fehlenden
+        Bytes mit Nullen auffüllt. Der eingesetzte smart contract kann dies nicht verhindern und interpretiert diese
+        zusätzlichen Nullen als Teil des korrekten Wertes, was ernsthafte Probleme provoziert. Dies ist möglich, weil
+        die "Ethereum Virtual Machine" (EVM) falsch aufgefüllte Argumente akzeptieren kann. Hacker können diese
+        Schwachstelle ausnutzen, indem sie speziell gestaltete Adressen an potenzielle Opfer senden.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<div id="bribery-attack">
+    <h5>Bribery Attack</h5>
+    <p style="text-align:justify">
+        Bribery (Bestechung) ist eine Art des Angriffs, bei dem ein Angreifer durch Bestechung für kurze Zeit
+        Mining-Power erwerben könnte. Die Bestechung kann "in-band" durchgeführt werden, wobei das System selbst die
+        Bestechung durchsetzt. Das heißt, der Angreifer versucht, mit der Blockchain Währung selbst zu bestechen, indem
+        er einen Fork erstellt, der das Bestechungsgeld für den Miner enthält und für ihn zur Verfügung steht. Neben der
+        "in-band" Zahlung gibt es die "out-of-band" Zahlung, bei der der Angreifer direkt für die Miete seiner
+        Rechenleistung zahlt, oder durch den Negativgebühren-Mining-Pool, bei dem der Angreifer durch Zahlung einer
+        höheren Gebühr einen Pool bildet. Bestechung ist nicht notwendigerweise ein illegales oder unethisches
+        Verhalten, sondern lediglich, dass eine Nebenzahlung geleistet wird.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<div id="reentrancy">
+    <h5>Reentrancy Attack</h5>
+    <p style="text-align:justify">
+        Eine Reentrancy-Attack kann auftreten, wenn Sie eine Funktion erstellen, die einen externen call zu einem
+        anderen nicht vertrauenswürdigen smart contract tätigt, bevor die Auswirkungen behoben sind. Wenn der Angreifer
+        den nicht vertrauenswürdigen Vertrag kontrollieren kann, kann er einen rekursiven Rückruf an die ursprüngliche
+        Funktion durchführen und dabei Interaktionen wiederholen, die sonst nach der Auflösung der Auswirkungen nicht
+        ausgeführt worden wären. Es gibt 2 Arten von Wiedereintrittsangriffen: <b>single function re-entrancy attack</b>
+        und <b>cross-function re-entrancy attack</b>.
+    </p>
+    <div class="divider"></div>
+</div>
+
+<div id="void-address-attack">
+    <h5>Void Address Attack</h5>
+    <p style="text-align:justify">
+        Ein Angreifer kann zusätzliche Codes oder Transaktionsdetails einführen und neue Transaktionsanweisungen an das
+        Blockchain-Netzwerk senden, um sich einen ungebührlichen Vorteil zu verschaffen. Wenn Angreifer absichtlich
+        Eingaben machen können, die das Node-Ledger nicht speichern kann, und/oder Bereiche überschreiben können, die
+        ausführbaren Code enthalten, diesen durch ihren eigenen Code ersetzen und Transaktionen ausführen können, die in
+        der Blockchain als gültig angesehen würden.
+    </p>
+    <div class="divider"></div>
 </div>
