@@ -34,3 +34,6 @@ gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
 
 # SEO generates rich meta information for search egines and social networks
 gem 'jekyll-seo-tag'
+
+# GitHub-flavored Emoji plugin for Jekyll
+gem 'jemoji'

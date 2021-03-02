@@ -27,7 +27,7 @@
     $('.slider').slider();
     $('.sidenav').sidenav();
     $('.modal').modal();
-  
+    $('.tooltipped').tooltip();  
     $('.pushpin').pushpin({
       top: 150,
       offset: 75

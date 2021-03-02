@@ -24,6 +24,7 @@ permalink: /:categories/:title/
 
 plugins:
   - jekyll-seo-tag
+  - jemoji
   
 # Build settings
 markdown: kramdown

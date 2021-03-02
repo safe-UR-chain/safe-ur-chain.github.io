@@ -45,3 +45,8 @@ pre {
 foreignObject {
   text-align: center;
 }
+
+.emoji {
+  top: 5px;
+  position: relative;
+}

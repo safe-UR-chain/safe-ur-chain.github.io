@@ -14,7 +14,7 @@ layout: default
     <div class="col s12 m8 l9">
       <h5><i class="mdi mdi-clock-fast"></i> Letzte Beiträge</h5>
 
-      {% for post in site.posts limit:5 %}
+      {% for post in site.posts limit:15 %}
       <div class="card medium">
         <div class="card-image">
           <a class="waves-effect waves-light" href="{{ post.url | relative_url }}">
