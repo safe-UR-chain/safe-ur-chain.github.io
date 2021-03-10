@@ -15,7 +15,7 @@ Die erste Hälfe des Verbundvorhabens war geprägt von einer detaillierten Konze
 
 **Zusammengefasst** konnten dem Projektträger folgende Ergebnisse präsentiert werden:
 
-> * :heavy_check_mark: Umfassende Unterlagen zur IT-Sicherheit von Blockchain-Technologien sind ausgearbeitet und veröffentlicht, siehe <a href="{{ "/security#vectors" | relative_url }}">Angriffsvektoren <i class="mdi mdi-open-in-new" style="font-size: inherit"></i></a>.
+> * :heavy_check_mark: Umfassende Unterlagen zur Sicherheit von Blockchain-Technologien sind ausgearbeitet und veröffentlicht, siehe <a href="{{ "/security#vectors" | relative_url }}">Angriffsvektoren <i class="mdi mdi-open-in-new" style="font-size: inherit"></i></a>.
 > * :heavy_check_mark: Die Hardwareentwicklung zur drahtlosen Kommunikation maschinennaher Blockchain-Knoten ist abgeschlossen.
 > * :heavy_check_mark: Die Entwicklungen des Blockchain-Netzwerks und der Schnittstellen für Maschinen sind bereit für Langzeittests.
 
